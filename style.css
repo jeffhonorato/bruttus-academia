@@ -86,6 +86,7 @@ img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 60px;
 }
 
 .titulo-plano {
@@ -175,4 +176,43 @@ img {
 
 .titulo-premium {
     margin-top: 2rem;
+}
+
+/******************** MAIN - BENEFICIOS ********************/
+.beneficios {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem;
+    background-color: #3C3C3E;
+}
+
+.item-bef {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.info-bef {
+    text-align: center;
+}
+
+.info-bef h2 {
+    font-family: var(--fonte-subtitulo);
+    color: var(--cor-titulos);
+}
+
+.info-bef p {
+    font-family: var(--fonte-corpo);
+    font-size: var(--fonte-size-corpo);
+    color: #fff;
+}
+
+.img-item img {
+    width: 60px;
+    margin: 0 auto;
 }
