@@ -335,10 +335,10 @@ img {
     padding: 3rem;
 }
 
-.acordion-nutriente {
+/* .acordion-nutriente {
     padding: 1rem;
     
-}
+} */
 
 .acordion-nutriente summary {
     font-family: var(--fonte-corpo);
@@ -353,18 +353,32 @@ img {
     flex-wrap: wrap;
     gap: 1rem;
     align-items: center;
-    justify-content: space-around;
+    max-width: 62.5rem;
+    margin: 0 auto;
+    /* justify-content: space-around; */
 }
 
-.nutriente-info {
+.nutriente-info h2 {
     font-family: var(--fonte-corpo);
-    font-size: var(--fonte-size-corpo);
+    font-size: var(--fonte-size-titulos);
+    padding: 1rem;
+    text-align: center;
 }
 
 .nutriente-info p {
     width: 500px;
     font-family: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.25rem;
+    font-family: var(--fonte-corpo);
+    font-size: 1rem;
+    padding: 0.5rem;
+    line-height: 1.4;
+
+    /* background-color: wheat; */
+}
+
+.img-nutrientes {
+    width: 23.75rem;
 }
 
 /******************** RESPONSIVIDADE ********************/
