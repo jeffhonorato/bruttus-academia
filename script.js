@@ -1,4 +1,4 @@
-const btnMobile = document.querySelector(".img-menu");
+const btnMobile = document.querySelector(".img-menu-mobile");
 
 function toggleMenu() {
     const nav = document.querySelector(".nav-menu")
