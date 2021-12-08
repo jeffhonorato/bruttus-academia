@@ -407,16 +407,19 @@ img {
         margin-bottom: 1rem;
     }
 
+    .apresentacao-treinamentos img {
+        width: 18.75rem;
+    }
+
     .acordion {
         width: 17.5rem;
     }
 
     .galeria h2 {
-        font-size: 2rem;
-    }
+        font-size: 2.2rem;
+        text-align: start;
+        padding: 2rem;
 
-    .apresentacao-treinamentos img {
-        width: 18.75rem;
     }
 
     .img-academia {
