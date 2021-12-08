@@ -305,6 +305,7 @@ img {
 /******************** GALERIA ********************/
 .galeria {
     background-color: #3c3c3e;
+    padding-bottom: 3rem;
 }
 
 .galeria h2 {
@@ -324,6 +325,46 @@ img {
 
 .img-academia {
     width: 400px;
+}
+
+/******************** NUTRIENTES ********************/
+.titulo-nutrientes {
+    font-family: var(--fonte-subtitulo);
+    font-size: var(--fonte-size-titulos);
+    text-align: center;
+    padding: 3rem;
+}
+
+.acordion-nutriente {
+    padding: 1rem;
+    
+}
+
+.acordion-nutriente summary {
+    font-family: var(--fonte-corpo);
+    font-size: var(--fonte-size-titulos);
+    background-color: var(--cor-btn-links);
+    padding: 1rem;
+    margin-bottom: 3rem;
+}
+
+.section-nutriente {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nutriente-info {
+    font-family: var(--fonte-corpo);
+    font-size: var(--fonte-size-corpo);
+}
+
+.nutriente-info p {
+    width: 500px;
+    font-family: 1rem;
+    margin-bottom: 1rem;
 }
 
 /******************** RESPONSIVIDADE ********************/
