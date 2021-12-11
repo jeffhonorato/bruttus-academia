@@ -330,6 +330,7 @@ img {
 }
 
 /******************** NUTRIENTES ********************/
+
 .titulo-nutrientes {
     font-family: var(--fonte-subtitulo);
     font-size: var(--fonte-size-titulos);
@@ -341,6 +342,12 @@ img {
     padding: 1rem;
     
 } */
+
+.acordion-nutriente {
+    margin: 0 auto;
+    width: 75rem;
+    padding: 1rem;
+}
 
 .acordion-nutriente summary {
     font-family: var(--fonte-corpo);
@@ -381,6 +388,63 @@ img {
 
 .img-nutrientes {
     width: 23.75rem;
+}
+
+/******************** SOBRE-NOS ********************/
+.sobre-nos {
+    background-image: url("./img/background-sobre-nos.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 2000px;
+}
+
+.sobre-nos-info {
+    width: 62.5rem;
+    margin: 0 auto;
+    display: grid;
+    align-content: center;
+    grid-template-columns: 1fr;
+    height: 2000px;
+    max-width: 1000px;
+}
+
+.sobre-nos-info h1 {
+    font-family: var(--fonte-titulos);
+    font-size: 6rem;
+    color: var(--cor-btn-links);
+    text-align: center;
+    margin-bottom: 2rem;
+    box-shadow: 1px 1px 20px 1px var(--cor-titulos);
+    max-width: 900px;
+    
+}
+
+.sobre-nos-info h1:hover {
+    color: var(--cor-titulos);
+    box-shadow: 1px 1px 20px 1px var(--cor-btn-links);
+    transition: all 0.6s;
+}
+
+.sobre-nos-info p {
+    font-family: var(--fonte-corpo);
+    font-size: 1.4rem;
+    color: #fff;
+    max-width: 900px;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.endereco {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.endereco h3 {
+    font-family: var(--fonte-corpo);
+    font-size: 2.5rem;
+    color: var(--cor-titulos);
 }
 
 /******************** RESPONSIVIDADE ********************/
@@ -493,6 +557,26 @@ img {
     }
 
     .nutriente-info p {
+        width: 18.75rem;
+    }
+
+    .logo {
+        width: 18.75rem;
+        margin-left: 0.6rem;
+    }
+
+    .sobre-nos-info h1 {
+        font-size: 3.5rem;
+        width: 18.75rem;
+        margin-left: 0.6rem;
+    }
+
+    .sobre-nos-info p {
+        padding: 1rem;
+        width: 18.75rem;
+    }
+
+    .endereco h3 {
         width: 18.75rem;
     }
 }
