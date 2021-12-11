@@ -16,6 +16,11 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 a {
     text-decoration: none;
 }
@@ -357,6 +362,10 @@ img {
     margin-bottom: 3rem;
 }
 
+.nutrientes {
+    max-width: 62.5rem;
+}
+
 .section-nutriente {
     display: flex;
     flex-wrap: wrap;
@@ -417,7 +426,7 @@ img {
     text-align: center;
     margin-bottom: 2rem;
     box-shadow: 1px 1px 20px 1px var(--cor-titulos);
-    max-width: 900px;
+    width: 56.25rem;
     
 }
 
@@ -445,6 +454,22 @@ img {
     font-family: var(--fonte-corpo);
     font-size: 2.5rem;
     color: var(--cor-titulos);
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.logo-rede-sociais {
+    max-width: 80px;
+    border-bottom: transparent;
+}
+
+.logo-rede-sociais:hover {
+    border-bottom: 2px solid #fff;
 }
 
 /******************** RESPONSIVIDADE ********************/
@@ -582,5 +607,37 @@ img {
 
     .endereco h3 {
         width: 18.75rem;
+    }
+
+    .rede-sociais {
+        width: 50px;
+    }
+}
+
+@media (min-width:600px) and (max-width:1024px) {
+    .acordion-nutriente summary {
+        width: 1024px;     
+    }
+
+    .section-nutriente {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .sobre-nos-info h1 {
+        width: 37.5rem;
+    }
+
+    .sobre-nos-info p {
+        width: 37.5rem;
+    }
+
+    .endereco {
+        width: 37.5rem;
+    }
+
+    .logo-mobile600px {
+        width: 25rem;
+        margin-left: 7.5rem;
     }
 }
