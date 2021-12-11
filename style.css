@@ -604,13 +604,15 @@ img {
     }
 
     .sobre-nos-info {
-        max-width: 18.75rem;
+        max-width: 300px;
+        text-align: center;
     }
 
     .sobre-nos-info h1 {
         font-size: 3.5rem;
         width: 18.75rem;
-        margin: 0 auto;
+        margin: 1rem auto;
+        text-align: center;
     }
 
     .sobre-nos-info p {
@@ -632,7 +634,7 @@ img {
     } */
 
     .maps iframe {
-        width: 300px;
+        width: 280px;
         text-align: center;
     }
 }
@@ -643,13 +645,24 @@ img {
         /* margin: 0 auto;      */
     }
 
+    .acordion-nutriente {
+        width: 600px;
+    }
+
+
     .section-nutriente {
         width: 600px;
-        margin: 0 auto;
+        
+        /* margin: 0 auto; */
+    }
+
+    .nutriente-info {
+        margin: 0;
     }
 
     .sobre-nos-info h1 {
-        width: 37.5rem;
+        width: 560px;
+        /* margin: 0rem 1rem; */
     }
 
     .sobre-nos-info p {
@@ -663,5 +676,10 @@ img {
     .logo-mobile600px {
         width: 25rem;
         margin-left: 7.5rem;
+    }
+
+     .maps iframe {
+        width: 450px;
+        text-align: center;
     }
 }
