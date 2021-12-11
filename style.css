@@ -565,10 +565,14 @@ img {
         margin-left: 0.6rem;
     }
 
+    .sobre-nos-info {
+        max-width: 18.75rem;
+    }
+
     .sobre-nos-info h1 {
         font-size: 3.5rem;
         width: 18.75rem;
-        margin-left: 0.6rem;
+        margin: 0 auto;
     }
 
     .sobre-nos-info p {
