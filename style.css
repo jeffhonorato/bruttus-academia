@@ -267,7 +267,7 @@ img {
 }
 
 .acordion {
-    background-color: #E91E63;
+    background-color: #66666b;
     max-width: 980px;
     margin: 1.5rem auto;
     padding: 0.5rem;
@@ -289,7 +289,9 @@ img {
     font-family: var(--fonte-subtitulo);
     font-size: var(--fonte-size-titulos);
     margin-bottom: 2rem;
+    color: #000;
 }
+
 
 .section-gifs {
     display: flex;
@@ -478,6 +480,19 @@ img {
     }
 
     .img-academia {
+        width: 18.75rem;
+    }
+
+    .acordion-nutriente {
+        width: 18.75rem;
+        margin: 0 auto;
+    }
+
+    .nutriente-info h2 {
+        font-size: 2rem;
+    }
+
+    .nutriente-info p {
         width: 18.75rem;
     }
 }
