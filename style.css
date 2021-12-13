@@ -23,6 +23,7 @@ html {
 
 a {
     text-decoration: none;
+    display: block;
 }
 
 ul, li {
@@ -483,6 +484,40 @@ img {
 .maps iframe {
     width: 580px;
 }
+/******************** FOOTER - DESENVOLVEDOR ********************/ 
+.desenvolvedor {
+    background-color: #000;
+    text-align: center;
+    padding: 1rem;
+    border-top: 1px solid #FFE347;
+}
+
+.desenvolvedor p {
+    font-family: var(--fonte-corpo);
+    font-size: 1rem;
+    color: var(--cor-titulos);
+    padding: 0.5rem;
+}
+
+.desenvolvedor a {
+    font-family: var(--fonte-corpo);
+    font-size: 1rem;
+    color: #000;
+    padding: 0.25rem;
+    width: 140px;
+    margin: 0 auto;
+    background-color: var(--cor-titulos);
+    border: 1px solid #000;
+}
+
+.desenvolvedor a:hover {
+    background-color: var(--cor-btn-links);
+    color: #fff;
+    transition: all 0.6s;
+    border-radius: 6px;
+    border: 1px solid #fff;
+
+}
 
 
 /******************** RESPONSIVIDADE ********************/
@@ -538,7 +573,7 @@ img {
 
     .card-plano {
         padding: 0.5rem;
-        width: 14rem;
+        width: 16.25rem;
         transform: rotateY(0deg);
         margin-bottom: 1rem;
     }
