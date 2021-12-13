@@ -416,6 +416,7 @@ img {
     margin: 0 auto;
     display: grid;
     align-content: center;
+    justify-content: center;
     grid-template-columns: 1fr;
     height: 2000px;
     max-width: 1000px;
@@ -675,9 +676,12 @@ img {
 }
 
 @media (min-width: 601px) and (max-width:1024px) {
+    .acordion {
+        width: 31rem;
+    }
+
     .acordion-nutriente summary {
-        width: 37.5rem;
-        /* margin: 0 auto;      */
+        width: 31rem;
     }
 
     .acordion-nutriente {
@@ -695,21 +699,29 @@ img {
         margin: 0;
     }
 
+    .sobre-nos-info {
+        width: 600px;
+    }
+
     .sobre-nos-info h1 {
-        width: 560px;
+        width: 26rem;
+        font-size: 4rem;
+        margin: 0 auto;
         /* margin: 0rem 1rem; */
     }
 
     .sobre-nos-info p {
-        width: 37.5rem;
+        width: 28rem;
+        margin: 1rem auto;
+
     }
 
     .endereco {
         width: 37.5rem;
     }
 
-    .logo-mobile600px {
-        width: 25rem;
+    .logo-mobile350px {
+        width: 21rem;
         margin-left: 7.5rem;
     }
 
