@@ -351,7 +351,7 @@ img {
 
 .acordion-nutriente {
     margin: 0 auto;
-    width: 75rem;
+    width: 62rem;
     padding: 1rem;
 }
 
@@ -457,6 +457,7 @@ img {
     font-family: var(--fonte-corpo);
     font-size: 2.5rem;
     color: var(--cor-titulos);
+    text-align: center;
 }
 
 .redes-sociais {
@@ -634,9 +635,9 @@ img {
         width: 18.75rem;
     }
 
-    .logo-mobile600px {
+    .logo-mobile300px {
         width: 18.75rem;
-        margin-left: 0.6rem;
+        margin: 0;
     }
 
     .sobre-nos-info {
@@ -658,6 +659,7 @@ img {
 
     .endereco h3 {
         width: 18.75rem;
+        font-size: 1.5rem;
     }
 
     .rede-sociais {
@@ -717,7 +719,17 @@ img {
     }
 
     .endereco {
-        width: 37.5rem;
+        width: 31rem;
+        margin: 0 auto;
+    }
+
+    .endereco h3 {
+        width: 31rem;
+        font-size: 2rem;
+    }
+
+    .endereco p {
+        width: 31rem;
     }
 
     .logo-mobile350px {
