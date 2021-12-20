@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./img/ico-bodybuilder.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Brutus Academia</title>
 </head>
@@ -179,11 +180,35 @@
 
         <section class="galeria" id="galeria">
             <h2>Confira abaixo nossa Estrutura</h2>
-            <figure class="galeria-musc">
-                <img src="./img/img-academia-musculacao.jpg" alt="" class="img-academia">
-                <img src="./img/img-academia-musculacao.jpg" alt="" class="img-academia">
-                <img src="./img/img-academia-musculacao.jpg" alt="" class="img-academia">
+            <figure class="galeria-musc js-slider-galeria">
+                <figure class="galeria-musc-imgs">
+                    <img src="./img/img-academia-musculacao.jpg" alt="" class="img-academia">
+                </figure>
+
+                <figure class="galeria-musc-imgs">
+                    <img src="./img/img-academia-musculacao.jpg" alt="" class="img-academia">
+                </figure>
+
+                <figure class="galeria-musc-imgs">
+                    <img src="./img/img-academia-musculacao.jpg" alt="" class="img-academia">
+                </figure>
+
+                <figure class="galeria-musc-imgs">
+                    <img src="./img/img-academia-musculacao.jpg" alt="" class="img-academia">
+                </figure>
+
+                <figure class="galeria-musc-imgs">
+                    <img src="./img/img-academia-musculacao.jpg" alt="" class="img-academia">
+                </figure>
+
+                <figure class="galeria-musc-imgs">
+                    <img src="./img/img-academia-musculacao.jpg" alt="" class="img-academia">
+                </figure>
             </figure>
+
+            <button aria-label="Previous" class="glider-prev"></button>
+            <button aria-label="Next" class="glider-next"></button>
+            <div role="tablist" class="dots"></div>
         </section>
 
         <section class="nutrientes" id="nutrientes">
@@ -281,7 +306,9 @@
         <p>Desenvolvido por:</p>
         <a href="https://www.instagram.com/primata_code/" target="_blank">Primata Code</a>
     </div>
-    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
     <script src="./script.js"></script>
 </body>
 </html>

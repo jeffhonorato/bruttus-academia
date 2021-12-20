@@ -327,12 +327,12 @@ img {
 .galeria-musc {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
+    padding: 1rem;
+    /* justify-content: center; */
 }
 
-.img-academia {
-    width: 400px;
+.galeria-musc-imgs {
+    padding: 1rem;
 }
 
 /******************** NUTRIENTES ********************/
