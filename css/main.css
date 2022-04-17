@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/********* VARIÁVEIS *********/
+/********* CONFIGURAÇÃO *********/
+/* line 10, ../../../Documents/GitHub/bruttus-academia/scss/main.scss */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+/* line 16, ../../../Documents/GitHub/bruttus-academia/scss/main.scss */
+html {
+  scroll-behavior: smooth; }
+
+/* line 20, ../../../Documents/GitHub/bruttus-academia/scss/main.scss */
+a {
+  text-decoration: none; }
+
+/* line 24, ../../../Documents/GitHub/bruttus-academia/scss/main.scss */
+img {
+  width: 100%;
+  display: block; }
+
+/* line 29, ../../../Documents/GitHub/bruttus-academia/scss/main.scss */
+ul, li {
+  list-style: none; }
+
+/********* MIXINS *********/
+/********* PÁGINA *********/
+/* line 1, ../../../Documents/GitHub/bruttus-academia/scss/_header.scss */
+.header {
+  background-image: url("../img/background-header.png");
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  /* line 9, ../../../Documents/GitHub/bruttus-academia/scss/_header.scss */
+  .header .header__container {
+    width: 50%;
+    height: 100%; }
+  /* line 16, ../../../Documents/GitHub/bruttus-academia/scss/_header.scss */
+  .header .img__logo {
+    width: 200px;
+    margin: 0 auto; }
+  /* line 21, ../../../Documents/GitHub/bruttus-academia/scss/_header.scss */
+  .header .nav__menu {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-top: 3rem;
+    justify-items: center; }
+  /* line 29, ../../../Documents/GitHub/bruttus-academia/scss/_header.scss */
+  .header .nav__link {
+    font-family: "Russo One", sans-serif;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    box-shadow: 4px 1px 5px #fff; }
+
+/*# sourceMappingURL=main.css.map */
