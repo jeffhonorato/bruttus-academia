@@ -53,10 +53,14 @@ ul, li {
   .header .nav__link {
     font-family: "Russo One", sans-serif;
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     padding: 5px 10px;
     border: 2px solid #fff;
     border-radius: 6px;
-    box-shadow: 4px 1px 5px #fff; }
+    box-shadow: 4px 1px 5px #fff;
+    cursor: pointer; }
+    /* line 39, ../../../Documents/GitHub/bruttus-academia/scss/_header.scss */
+    .header .nav__link:hover {
+      box-shadow: 0px 0px 0px #fff; }
 
 /*# sourceMappingURL=main.css.map */
