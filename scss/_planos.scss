@@ -1,3 +1,11 @@
+.planos {
+    background-image: url("../img/planos/background-planos.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 .planos__cabecalho {
     padding: 2rem;
     text-align: center;
@@ -6,9 +14,11 @@
 .planos__titulo {
     font-family: $fonte-menu;
     font-size: 3rem;
+    color: #DBDB43;
 }
 
 .planos__subtitulo {
     font-family: $fonte-menu;
     font-size: 2rem;
+    color: #fff;
 }
