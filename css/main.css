@@ -69,6 +69,7 @@ ul, li {
   background-color: #fff;
   color: #B81F00;
   transition: all .4s;
+  box-shadow: 1px 1px 10px #DBDB43;
 }
 
 .planos {
