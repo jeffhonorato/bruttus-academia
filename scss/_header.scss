@@ -1,20 +1,21 @@
 .header {
-    background-image: url("../img/background-header.png");
-    height: 100vh;
-    background-attachment: fixed;
+    background-image: url("../img/background-header2.jpg");
+    height: 130vh;
+    // background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
         .header__container {
-            width: 50%;
-            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: .5rem;
             // background-color: aqua;
 
         }
 
         .img__logo {
-            width: 200px;
+            width: 9rem; /* 150px */
             margin: 0 auto;
         }
 
@@ -31,13 +32,16 @@
             color: #fff;
             font-size: 1.3rem;
             padding: 5px 10px;
-            border: 2px solid #fff;
-            border-radius: 6px;
-            box-shadow: 4px 1px 5px #fff;
+            // border: 2px solid #fff;
+            border-bottom-right-radius: 20%;
+            box-shadow: 1px 1px 10px #B81F00;
             cursor: pointer;
 
                 &:hover {
                     box-shadow: 0px 0px 0px #fff;
+                    background-color: #fff;
+                    color: #B81F00;
+                    transition: all .4s;
                 }
         }
 }
