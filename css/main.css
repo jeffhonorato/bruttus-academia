@@ -101,7 +101,7 @@ ul, li {
 .planos__card--titulo {
   font-family: "Jura", sans-serif;
   color: #DBDB43;
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-align: center;
   margin-bottom: 2rem;
 }
@@ -117,15 +117,82 @@ ul, li {
 .card__aluminio-1,
 .card__aluminio-2 {
   box-shadow: 2px 2px 10px #B81F00;
+  width: 320px;
+  padding: 1rem .5rem;
 }
 
 .card__mensal {
   font-family: "Jura", sans-serif;
   color: #fff;
-  font-size: 1.7rem;
+  font-size: 3rem;
   text-align: center;
+  margin-bottom: 1.5rem;
 }
 
 .card__mensal span {
   font-family: "Advent Pro", sans-serif;
+  font-size: 2rem;
+  color: #DBDB43;
+}
+
+.card__acesso--box,
+.card__instrutor--box,
+.card__ficha--box,
+.card__esteira--box,
+.card__btn--box {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  padding: .3rem;
+}
+
+.card__ico {
+  width: 30px;
+}
+
+.card__acesso,
+.card__instrutor,
+.card__ficha,
+.card__esteira,
+.card__faleConosco {
+  font-family: "Jura", sans-serif;
+  color: #fff;
+}
+
+.card__acesso:hover,
+.card__instrutor:hover,
+.card__ficha:hover,
+.card__esteira:hover,
+.card__faleConosco:hover {
+  text-decoration: underline;
+  transition: all .4s;
+  color: #DBDB43;
+}
+
+.card__faleConosco {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.card__faleConosco:hover {
+  text-decoration: underline;
+  transition: all .4s;
+  color: #DBDB43;
+}
+
+.card__icone--whatsapp {
+  width: 30px;
+}
+
+.card__btn--box {
+  background: rgba(219, 219, 67, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border: 1px solid #dbdb43;
+  margin-top: 1rem;
+  width: 250px;
+  cursor: pointer;
+  margin: 2rem auto;
 }
