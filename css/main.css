@@ -85,6 +85,10 @@ ul, li {
   text-align: center;
 }
 
+.aluminio {
+  margin-bottom: 6rem;
+}
+
 .planos__titulo {
   font-family: "Viga", sans-serif;
   font-size: 3rem;
@@ -163,6 +167,7 @@ ul, li {
 .card__faleConosco {
   font-family: "Jura", sans-serif;
   color: #fff;
+  text-transform: uppercase;
 }
 
 .card__acesso:hover,
