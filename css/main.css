@@ -196,3 +196,8 @@ ul, li {
   cursor: pointer;
   margin: 2rem auto;
 }
+
+.card__btn--box:hover {
+  background-color: #000;
+  transition: all .4s;
+}
