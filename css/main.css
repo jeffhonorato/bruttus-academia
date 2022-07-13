@@ -103,4 +103,13 @@ ul, li {
   color: #DBDB43;
   font-size: 2rem;
   text-align: center;
+  margin-bottom: 2rem;
+}
+
+.card__aluminio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  flex-wrap: wrap;
 }
