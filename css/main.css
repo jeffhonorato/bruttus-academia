@@ -114,7 +114,8 @@ ul, li {
   flex-wrap: wrap;
 }
 
-.card__aluminio-1 {
+.card__aluminio-1,
+.card__aluminio-2 {
   box-shadow: 2px 2px 10px #B81F00;
 }
 
@@ -123,4 +124,8 @@ ul, li {
   color: #fff;
   font-size: 1.7rem;
   text-align: center;
+}
+
+.card__mensal span {
+  font-family: "Advent Pro", sans-serif;
 }
