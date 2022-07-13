@@ -39,3 +39,14 @@
     gap: 4rem;
     flex-wrap: wrap;
 }
+
+.card__aluminio-1 {
+    box-shadow: 2px 2px 10px $cor-titulo;
+}
+
+.card__mensal {
+    font-family: $fonte-corpo;
+    color: #fff;
+    font-size: 1.7rem;
+    text-align: center;
+}
