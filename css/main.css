@@ -69,7 +69,7 @@ ul, li {
   background-color: #fff;
   color: #B81F00;
   transition: all .4s;
-  box-shadow: 1px 1px 10px #DBDB43;
+  box-shadow: 1px 1px 10px "Jura", sans-serif;
 }
 
 .planos {
@@ -95,4 +95,12 @@ ul, li {
   font-family: "Viga", sans-serif;
   font-size: 2rem;
   color: #fff;
+  margin-bottom: 4rem;
+}
+
+.planos__card--titulo {
+  font-family: "Jura", sans-serif;
+  color: #DBDB43;
+  font-size: 2rem;
+  text-align: center;
 }

@@ -3,7 +3,7 @@ $fonte-titulo: 'Advent Pro', sans-serif;
 $fonte-menu: 'Viga', sans-serif;
 $fonte-corpo: 'Jura', sans-serif;
 $cor-titulo: #B81F00;
-$fonte-corpo: #DBDB43;
+$cor-corpo: #DBDB43;
 
 
 
@@ -37,5 +37,5 @@ ul, li {
 
 
 /********* PÁGINA *********/
-@import "header.scss";
-@import "planos.scss";
+@import "header";
+@import "planos";
