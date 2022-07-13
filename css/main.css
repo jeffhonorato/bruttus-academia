@@ -118,15 +118,13 @@ ul, li {
   flex-wrap: wrap;
 }
 
-.card__aluminio-1,
-.card__aluminio-2 {
+.card {
   box-shadow: 2px 2px 15px #B81F00;
   width: 320px;
   padding: 1rem .5rem;
 }
 
-.card__aluminio-1:hover,
-.card__aluminio-2:hover {
+.card:hover {
   box-shadow: 2px 2px 20px #DBDB43;
   transition: all .4s;
 }
