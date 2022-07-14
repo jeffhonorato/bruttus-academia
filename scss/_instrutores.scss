@@ -1,19 +1,28 @@
+.instrutores {
+    background-image: url("../img/equipe/background-equipe.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .instrutores__cabecalho {
     text-align: center;
+    padding: 2rem 0; 
 }
 
 .instrutores__cabecalho--titulo {
-    font-family: $fonte-corpo;
+    font-family: $fonte-titulo;
     color: $cor-corpo;
-    font-size: 2.5rem;
+    font-size: 4rem;
     text-align: center;
 }
 
 .instrutores__cabecalho--subtitulo {
-    font-family: $fonte-corpo;
+    font-family: $fonte-titulo;
     color: $cor-corpo;
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
+    color: #fff;
 }
 
 .equipe__box {
@@ -21,6 +30,7 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    flex-wrap: wrap;
 }
 
 .equipe__img {
@@ -41,9 +51,11 @@
     font-family: $fonte-corpo;
     font-size: 1.5rem;
     margin-bottom: .4rem;
+    color: #fff;
 }
 
 .instrutor__profissao {
     font-family: $fonte-corpo;
     font-size: 1.2rem;
+    color: $cor-corpo;
 }
