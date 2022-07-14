@@ -32,3 +32,17 @@
             transition: all .4s;
         }
 }
+
+.equipe__info {
+    text-align: center;
+}
+
+.instrutor__nome {
+    font-family: $fonte-corpo;
+    font-size: 1.5rem;
+}
+
+.instrutor__profissao {
+    font-family: $fonte-corpo;
+    font-size: 1.2rem;
+}
