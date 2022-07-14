@@ -48,6 +48,7 @@
     box-shadow: 2px 2px 15px $cor-titulo;
     width: 320px;
     padding: 1rem .5rem;
+    border: 1px solid rgba(219, 219, 67, 1);
 
         &:hover {
             box-shadow: 2px 2px 20px $cor-corpo;
@@ -106,6 +107,7 @@
     font-weight: bold;
     font-size: 1.5rem;
     
+    
         &:hover {
             text-decoration: underline;
             transition:  all .4s;
@@ -119,7 +121,7 @@
 
 .card__btn--box {
     background: rgba(219, 219, 67, .2);
-    border-radius: 16px;
+    // border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(3.5px);
     -webkit-backdrop-filter: blur(3.5px);
@@ -130,6 +132,7 @@
     margin: 2rem auto;
     justify-content: center;
     padding: .5rem;
+    border-bottom-right-radius: 20%;
 
         &:hover {
             background-color: #000;

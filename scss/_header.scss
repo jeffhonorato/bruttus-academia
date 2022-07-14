@@ -29,12 +29,13 @@
 
         .nav__link {
             font-family: $fonte-menu;
-            color: #fff;
+            color: #000;
             font-size: 1.3rem;
             padding: 5px 10px;
             border-bottom-right-radius: 20%;
             box-shadow: 1px 1px 10px #B81F00;
             cursor: pointer;
+            background-color: #fff;
 
                 &:hover {
                     box-shadow: 0px 0px 0px #fff;

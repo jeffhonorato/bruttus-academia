@@ -56,12 +56,13 @@ ul, li {
 
 .header .nav__link {
   font-family: "Viga", sans-serif;
-  color: #fff;
+  color: #000;
   font-size: 1.3rem;
   padding: 5px 10px;
   border-bottom-right-radius: 20%;
   box-shadow: 1px 1px 10px #B81F00;
   cursor: pointer;
+  background-color: #fff;
 }
 
 .header .nav__link:hover {
@@ -122,6 +123,7 @@ ul, li {
   box-shadow: 2px 2px 15px #B81F00;
   width: 320px;
   padding: 1rem .5rem;
+  border: 1px solid #dbdb43;
 }
 
 .card:hover {
@@ -195,7 +197,6 @@ ul, li {
 
 .card__btn--box {
   background: rgba(219, 219, 67, 0.2);
-  border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(3.5px);
   -webkit-backdrop-filter: blur(3.5px);
@@ -206,6 +207,7 @@ ul, li {
   margin: 2rem auto;
   justify-content: center;
   padding: .5rem;
+  border-bottom-right-radius: 20%;
 }
 
 .card__btn--box:hover {
