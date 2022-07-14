@@ -318,12 +318,24 @@ ul, li {
   text-align: center;
 }
 
+@media (max-width: 480px) {
+  .instrutores__cabecalho--titulo {
+    font-size: 2rem;
+  }
+}
+
 .instrutores__cabecalho--subtitulo {
   font-family: "Advent Pro", sans-serif;
   color: #DBDB43;
   font-size: 2.5rem;
   text-align: center;
   color: #fff;
+}
+
+@media (max-width: 480px) {
+  .instrutores__cabecalho--subtitulo {
+    font-size: 2rem;
+  }
 }
 
 .equipe__box {
