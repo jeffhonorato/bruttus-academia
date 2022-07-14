@@ -46,6 +46,12 @@ ul, li {
   margin: 0 auto;
 }
 
+@media (max-width: 480px) {
+  .header .img__logo {
+    width: 6.5rem;
+  }
+}
+
 .header .nav__menu {
   display: grid;
   grid-template-columns: 1fr;

@@ -17,6 +17,10 @@
         .img__logo {
             width: 9rem; /* 150px */
             margin: 0 auto;
+
+                @include celular {
+                    width: 6.5rem;
+                }
         }
 
         .nav__menu {
