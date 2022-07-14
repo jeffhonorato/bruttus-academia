@@ -68,7 +68,7 @@ ul, li {
 .header .nav__link:hover {
   box-shadow: 2px 2px 10px #fff;
   background-color: #B81F00;
-  color: #000;
+  color: #fff;
   transition: all .4s;
   box-shadow: 1px 1px 10px "Jura", sans-serif;
 }
