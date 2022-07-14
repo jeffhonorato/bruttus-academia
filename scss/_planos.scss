@@ -20,6 +20,10 @@
     font-family: $fonte-menu;
     font-size: 3rem;
     color: #DBDB43;
+
+        @include celular {
+            font-size: 2rem;
+        }
 }
 
 .planos__subtitulo {
@@ -27,6 +31,10 @@
     font-size: 2rem;
     color: #fff;
     margin-bottom: 4rem;
+
+        @include celular {
+            font-size: 1.5rem;
+        }
 }
 
 .planos__card--titulo {
@@ -35,6 +43,10 @@
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 2rem;
+
+        @include celular {
+            font-size: 2rem;
+        }
 }
 
 .card__aluminio {
