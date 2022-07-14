@@ -85,6 +85,7 @@ ul, li {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  padding-bottom: 4rem;
 }
 
 .planos__cabecalho {
@@ -240,5 +241,40 @@ ul, li {
 
 .card__btn--box:hover {
   background-color: #000;
+  transition: all .4s;
+}
+
+.instrutores__cabecalho {
+  text-align: center;
+}
+
+.instrutores__cabecalho--titulo {
+  font-family: "Jura", sans-serif;
+  color: #DBDB43;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.instrutores__cabecalho--subtitulo {
+  font-family: "Jura", sans-serif;
+  color: #DBDB43;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.equipe__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.equipe__img {
+  width: 200px;
+  filter: grayscale(100%);
+}
+
+.equipe__img:hover {
+  filter: grayscale(0%);
   transition: all .4s;
 }
