@@ -19,7 +19,7 @@
             margin: 0 auto;
 
                 @include celular {
-                    width: 6.5rem;
+                    width: 6rem;
                 }
         }
 
@@ -28,23 +28,46 @@
             position: absolute;
             top: 40px;
             right: 45px;
-
             cursor: pointer;
-            
+
+                @include celular {
+                    width: 60px;
+                    position: fixed;
+                    right: 10px;
+                    top: 40px;
+                }
         }
 
         .nav__menu {
             display: grid;
             grid-template-columns: 1fr;
             gap: 1.5rem;
-            margin-top: 7.5rem;
             justify-items: center;
+            margin-top: 7.4rem;
             display: none;
+            
+            // animation: show;
+
+                @include celular {
+                    position: fixed;
+                    top: 130px;
+                    right: 30px;
+                }
         }
 
         .nav__menu.show {
             display: grid;
         }
+
+        // @keyframes show {
+        //     to {
+        //         opacity: 0;
+        //     }
+
+        //     from {
+        //         opacity: 1;
+        //     }
+        // }
 
         .nav__link {
             font-family: $fonte-menu;
@@ -62,6 +85,10 @@
                     color: #fff;
                     transition: all .4s;
                     box-shadow: 1px 1px 10px $fonte-corpo;
+                }
+
+                @include celular {
+                    font-size: 1rem;
                 }
         }
 }
