@@ -49,10 +49,25 @@
     width: 320px;
     padding: 1rem .5rem;
     border: 1px solid rgba(219, 219, 67, 1);
+    border-bottom-right-radius: 10%;
+    position: relative;
 
         &:hover {
             box-shadow: 2px 2px 20px $cor-corpo;
             transition: all .4s;
+        }
+}
+
+.card__selo {
+    width: 100px;
+    position: absolute;
+    top: -30px;
+    right: -40px;
+
+        @include celular {
+            top: -20px;
+            right: -20px;
+            width: 90px;
         }
 }
 

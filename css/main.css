@@ -66,9 +66,9 @@ ul, li {
 }
 
 .header .nav__link:hover {
-  box-shadow: 0px 0px 0px #fff;
-  background-color: #fff;
-  color: #B81F00;
+  box-shadow: 2px 2px 10px #fff;
+  background-color: #B81F00;
+  color: #000;
   transition: all .4s;
   box-shadow: 1px 1px 10px "Jura", sans-serif;
 }
@@ -124,11 +124,28 @@ ul, li {
   width: 320px;
   padding: 1rem .5rem;
   border: 1px solid #dbdb43;
+  border-bottom-right-radius: 10%;
+  position: relative;
 }
 
 .card:hover {
   box-shadow: 2px 2px 20px #DBDB43;
   transition: all .4s;
+}
+
+.card__selo {
+  width: 100px;
+  position: absolute;
+  top: -30px;
+  right: -40px;
+}
+
+@media (max-width: 480px) {
+  .card__selo {
+    top: -20px;
+    right: -20px;
+    width: 90px;
+  }
 }
 
 .card__icone-plano {
