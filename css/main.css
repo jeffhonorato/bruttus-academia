@@ -38,6 +38,7 @@ ul, li {
   display: flex;
   justify-content: space-between;
   padding: .5rem;
+  position: relative;
 }
 
 .header .img__logo {
@@ -52,12 +53,25 @@ ul, li {
   }
 }
 
+.header .menu__mobile {
+  width: 85px;
+  position: absolute;
+  top: 40px;
+  right: 45px;
+  cursor: pointer;
+}
+
 .header .nav__menu {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1.5rem;
-  margin-top: 3rem;
+  margin-top: 7.5rem;
   justify-items: center;
+  display: none;
+}
+
+.header .nav__menu.show {
+  display: grid;
 }
 
 .header .nav__link {
@@ -282,6 +296,7 @@ ul, li {
 .equipe__img {
   width: 200px;
   filter: grayscale(100%);
+  margin-bottom: .4rem;
 }
 
 .equipe__img:hover {
