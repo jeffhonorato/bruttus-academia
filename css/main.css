@@ -383,6 +383,14 @@ ul, li {
   color: #DBDB43;
 }
 
+.treinos {
+  background-image: url("../img/treinamentos/background-treinamentos.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 .treinos__box--titulo {
   font-size: 3rem;
   font-family: "Viga", sans-serif;
