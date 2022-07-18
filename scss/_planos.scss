@@ -95,13 +95,21 @@
     color: #fff;
     font-size: 3rem;
     text-align: center;
-    margin-bottom: 1.5rem;
+}
 
-        span {
-            font-family: $fonte-titulo;
-            font-size: 2rem;
-            color: $cor-corpo;
-        }
+.card__mensal--promo {
+    font-family: $fonte-corpo;
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.card__mensal--semestre {
+    font-family: $fonte-menu;
+    color: $cor-corpo;
+    font-size: 3rem;
+    text-align: center;
+    margin: 1rem 0;
 }
 
 .card__acesso--box,
