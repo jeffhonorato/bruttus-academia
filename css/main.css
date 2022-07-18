@@ -312,6 +312,7 @@ ul, li {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 4rem;
 }
 
 .instrutores__cabecalho {
@@ -380,4 +381,27 @@ ul, li {
   font-family: "Jura", sans-serif;
   font-size: 1.2rem;
   color: #DBDB43;
+}
+
+.treinos__box--titulo {
+  font-size: 3rem;
+  font-family: "Viga", sans-serif;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.treinos__box--biceps {
+  width: 400px;
+  background-color: teal;
+}
+
+.biceps__box {
+  background-color: teal;
+  border-radius: 50%;
+  border: 2px solid #000;
+}
+
+.img {
+  width: 250px;
+  margin: 1rem;
 }
