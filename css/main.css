@@ -397,18 +397,20 @@ ul, li {
   text-align: center;
   padding: 2rem 0;
   margin-bottom: 4rem;
+  color: #DBDB43;
 }
 
 .treino__cards {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr;
   gap: 2rem;
-  justify-content: right;
-  align-content: center;
+  justify-items: end;
+  padding-right: 10rem;
 }
 
 .treino__card--btn {
   border: 10px solid #000;
   border-radius: 50%;
   padding: 1rem;
+  width: 130px;
 }
