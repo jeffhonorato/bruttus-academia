@@ -415,10 +415,17 @@ ul, li {
   color: #DBDB43;
 }
 
+.treino__box--btns {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 100px;
+}
+
 .treino__box--link {
-  background-color: #DBDB43;
   width: 150px;
   border-bottom-right-radius: 10%;
+  background-color: #fff;
 }
 
 .treino__box--img {
