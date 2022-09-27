@@ -4,6 +4,15 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    height: 100vh;
 }
 
+.treinos__box--titulo {
+    font-size: 2.9rem;
+    font-family: $fonte-menu;
+    text-align: center;
+    padding: 2rem 0;
+    margin-bottom: 4rem;
+    color: $cor-corpo;
+}
 

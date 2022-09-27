@@ -403,4 +403,14 @@ ul, li {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  height: 100vh;
+}
+
+.treinos__box--titulo {
+  font-size: 2.9rem;
+  font-family: "Viga", sans-serif;
+  text-align: center;
+  padding: 2rem 0;
+  margin-bottom: 4rem;
+  color: #DBDB43;
 }
