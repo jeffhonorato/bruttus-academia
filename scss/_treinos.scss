@@ -6,28 +6,4 @@
     background-attachment: fixed;
 }
 
-.treinos__box--titulo {
-    font-size: 3rem;
-    font-family: $fonte-menu;
-    text-align: center;
-    padding: 2rem 0;
-    margin-bottom: 4rem;
-    color: $cor-corpo;
-}
 
-.treino__cards {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 2rem;
-    justify-items: end;
-    padding-right: 10rem;
-    
-    
-}
-
-.treino__card--btn {
-    border: 10px solid #000;
-    border-radius: 50%;
-    padding: 1rem;
-    width: 130px;
-}
