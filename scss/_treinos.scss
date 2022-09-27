@@ -14,27 +14,48 @@
     padding: 2rem 0;
     margin-bottom: 4rem;
     color: $cor-corpo;
+
+        @include celular {
+            font-size: 1.4rem;
+        }
+        
+
 }
 
-.treino__box--btns {
+.treino__box--container {
     display: flex;
     justify-content: end;
     align-items: center;
     padding-right: 100px;
+
+        @include celular {
+            justify-content: center;
+            padding-right: 0px;
+        }
+}
+
+.treino__box--btns {
+    display: grid;
+    grid-template-columns: 160px 160px;
+    gap: .5rem;
 }
 
 .treino__box--link {
-    width: 150px;
-    border-bottom-right-radius: 10%;
-    background-color: #fff;
+    width: 130px;
+    border-radius: 30%;
+    border: 2px solid #fff;
+    background-color: $cor-titulo;
+    text-align: center;
 }
 
 .treino__box--img {
     width: 80px;
+    margin: 0 auto;
 }
 
 .treino__box--nome {
     font-family: $fonte-corpo;
     color: #fff;
     padding: .4rem;
+    font-size: 1.2rem;
 }
