@@ -25,7 +25,7 @@
 
         .menu__mobile {
             width: 85px;
-            position: absolute;
+            position: fixed;
             top: 40px;
             right: 45px;
             cursor: pointer;
@@ -40,12 +40,15 @@
         .nav__menu {
             display: grid;
             grid-template-columns: 1fr;
-            gap: 1.5rem;
+            gap: 1rem;
             justify-items: center;
-            position: absolute;
+            position: fixed;
             top: 130px;
             right: 30px;
             display: none;
+            box-shadow: 1px 1px 10px 1px #fff;
+            animation: show 1s forwards;
+            padding: 1rem;
             
             // animation: show;
 
@@ -59,20 +62,23 @@
             display: grid;
         }
 
-        // @keyframes show {
-        //     to {
-        //         opacity: 0;
-        //     }
-
-        //     from {
-        //         opacity: 1;
-        //     }
-        // }
+        @keyframes show {
+            from {
+                margin-left: 100%;
+                opacity: 0;
+                
+              }
+            
+              to {
+                margin-left: 0%;
+                opacity: 1;
+              }
+        }
 
         .nav__link {
             font-family: $fonte-menu;
             color: #000;
-            font-size: 1.3rem;
+            font-size: 1.1rem;
             padding: 5px 10px;
             border-bottom-right-radius: 20%;
             box-shadow: 1px 1px 10px #B81F00;
