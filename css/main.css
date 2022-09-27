@@ -414,3 +414,19 @@ ul, li {
   margin-bottom: 4rem;
   color: #DBDB43;
 }
+
+.treino__box--link {
+  background-color: #DBDB43;
+  width: 150px;
+  border-bottom-right-radius: 10%;
+}
+
+.treino__box--img {
+  width: 80px;
+}
+
+.treino__box--nome {
+  font-family: "Jura", sans-serif;
+  color: #fff;
+  padding: .4rem;
+}
