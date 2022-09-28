@@ -482,9 +482,29 @@ ul, li {
   width: 300px;
   background-color: brown;
   text-align: center;
+  padding: .4rem;
+  background: rgba(219, 219, 67, 0.4);
+}
+
+.treino__modal--titulo {
+  font-family: "Advent Pro", sans-serif;
+  font-size: 2rem;
 }
 
 .treino__modal--gif {
   width: 250px;
   margin: 0 auto;
+}
+
+.treino__modal--desc {
+  font-family: "Advent Pro", sans-serif;
+  font-weight: bold;
+}
+
+.treino__modal--rep {
+  font-family: "Jura", sans-serif;
+}
+
+.treino__modal--serie {
+  font-family: "Jura", sans-serif;
 }

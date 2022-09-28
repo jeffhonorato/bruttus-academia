@@ -82,9 +82,29 @@
     width: 300px;
     background-color: brown;
     text-align: center;
+    padding: .4rem;
+    background: rgba(219, 219, 67, .4)
+}
+
+.treino__modal--titulo {
+    font-family: $fonte-titulo;
+    font-size: 2rem;
 }
 
 .treino__modal--gif {
     width: 250px;
     margin: 0 auto;
+}
+
+.treino__modal--desc {
+    font-family: $fonte-titulo;
+    font-weight: bold;
+}
+
+.treino__modal--rep {
+    font-family: $fonte-corpo;
+}
+
+.treino__modal--serie {
+    font-family: $fonte-corpo;
 }
