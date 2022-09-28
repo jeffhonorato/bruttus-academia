@@ -19,6 +19,14 @@ html {
     scroll-behavior: smooth;
 }
 
+.js-scroll {
+    overflow: auto;
+}
+
+.js-scroll.off {
+    overflow: hidden;
+}
+
 a {
     text-decoration: none;
 }

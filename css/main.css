@@ -11,6 +11,14 @@ html {
   scroll-behavior: smooth;
 }
 
+.js-scroll {
+  overflow: auto;
+}
+
+.js-scroll.off {
+  overflow: hidden;
+}
+
 a {
   text-decoration: none;
 }
@@ -482,6 +490,7 @@ ul, li {
   height: 100%;
   display: none;
   place-content: center;
+  animation: slidein 1s forwards;
 }
 
 .treino__modal--box.ativo {
@@ -510,6 +519,19 @@ ul, li {
   }
 }
 
+.btn__fechar {
+  width: 40px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+
+.btn__fechar:hover {
+  width: 38px;
+  transition: all .5s;
+}
+
 .treino__modal--card {
   width: 400px;
   height: 1000px;
@@ -534,6 +556,17 @@ ul, li {
 
 .treino__modal--serie {
   font-family: "Jura", sans-serif;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 /******* SWIPER SLIDER *******/

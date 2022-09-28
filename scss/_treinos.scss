@@ -82,6 +82,7 @@
     height: 100%;
     display: none;
     place-content: center; 
+    animation: slidein 1s forwards;
 }
 
 .treino__modal--box.ativo {
@@ -107,6 +108,19 @@
             width: 330px;
         }
     
+}
+
+.btn__fechar {
+    width: 40px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+
+        &:hover {
+            width: 38px;
+            transition: all .5s;
+        }
 }
 
 .treino__modal--card {
@@ -136,6 +150,18 @@
     font-family: $fonte-corpo;
 }
 
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 
 
 

@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./css/main.css">
     <title>Brutus Academia</title>
 </head>
-<body>
+<body class="js-scroll">
 
     <header class="header">
  
@@ -266,22 +266,22 @@
 
                 <div class="treino__box--container">
                     <div class="treino__box--btns">
-                        <a href="" class="treino__box--link">
+                        <a class="treino__box--link js-btn-biceps">
                             <img src="./img/treinamentos/biceps.png" alt="" class="treino__box--img">
                             <p class="treino__box--nome">Biceps</p>
                         </a>
     
-                        <a href="" class="treino__box--link">
+                        <a class="treino__box--link">
                             <img src="./img/treinamentos/triceps.png" alt="" class="treino__box--img">
                             <p class="treino__box--nome">Triceps</p>
                         </a>
     
-                        <a href="" class="treino__box--link">
+                        <a class="treino__box--link">
                             <img src="./img/treinamentos/ombro.png" alt="" class="treino__box--img">
                             <p class="treino__box--nome">Ombro</p>
                         </a>
 
-                        <a href="" class="treino__box--link">
+                        <a class="treino__box--link">
                             <img src="./img/treinamentos/peito.png" alt="" class="treino__box--img">
                             <p class="treino__box--nome">Peito</p>
                         </a>
@@ -298,13 +298,14 @@
                     </div>
                 </div>
 
-                <div class="treino__modal--box">
+                <div class="treino__modal--box js-biceps">
 
                     <div class="modal__exemplo">
 
+                        <img src="./img/treinamentos/close.png" alt="" class="btn__fechar js-btn-fechar">
+
                         <div class="swiper mySwiper">
                             <div class="swiper-wrapper">
-
                                 <div class="treino__modal--card swiper-slide card__biceps">
                                     <h2 class="treino__modal--titulo">Nome do Movimento</h2>
                                     <img src="./img/treinamentos/gifs/biceps/biceps-ico-1.gif" alt="" class="treino__modal--gif">
@@ -338,11 +339,6 @@
                             <div class="swiper-button-next"></div>
                             <div class="swiper-button-prev"></div>
                         </div>
-
-                       
-    
-                      
-
                     </div>
                 </div>
                 
@@ -376,6 +372,7 @@
     <!-- SCRRIPS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="./js/swiper-modal-slider.js"></script>
+    <script src="./js/modal-treinos.js"></script>
     <script src="./js/menu-mobile.js"></script>
     
 </body>
