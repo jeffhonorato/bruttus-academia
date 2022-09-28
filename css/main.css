@@ -454,6 +454,7 @@ ul, li {
   border: 2px solid #B81F00;
   background-color: #fff;
   text-align: center;
+  cursor: pointer;
 }
 
 .treino__box--link:hover {
@@ -511,6 +512,7 @@ ul, li {
   background: #000;
   width: 800px;
   height: 500px;
+  border-radius: 10%;
 }
 
 @media (max-width: 480px) {
