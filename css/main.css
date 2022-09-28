@@ -65,8 +65,9 @@ ul, li {
   width: 70px;
   position: fixed;
   top: 40px;
-  right: 45px;
+  right: 20px;
   cursor: pointer;
+  z-index: 2;
 }
 
 @media (max-width: 480px) {
@@ -84,7 +85,7 @@ ul, li {
   justify-items: center;
   position: fixed;
   top: 100px;
-  right: 20px;
+  right: 10px;
   display: none;
   animation: show 1s forwards;
   padding: 1rem;

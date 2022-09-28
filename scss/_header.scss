@@ -27,8 +27,9 @@
             width: 70px;
             position: fixed;
             top: 40px;
-            right: 45px;
+            right: 20px;
             cursor: pointer;
+            z-index: 2;
 
                 @include celular {
                     width: 60px;
@@ -44,7 +45,7 @@
             justify-items: center;
             position: fixed;
             top: 100px;
-            right: 20px;
+            right: 10px;
             display: none;
             // background-color: $cor-titulo;
             animation: show 1s forwards;

@@ -55,6 +55,26 @@ const modalOmbro = () => {
     });
 };
 
+const modalPeito = () => {
+    const btnTreino = document.querySelector(".js-btn-peito");
+    const modalBox = document.querySelector(".js-modal-peito");
+   
+    
+    btnTreino.addEventListener("click", () => {
+        modalBox.classList.add("ativo");
+        const scroll = document.querySelector(".js-scroll");
+        scroll.classList.add("off");
+    });
+
+    const btnFechar = document.querySelector(".js-btn-fecharPeito");
+        btnFechar.addEventListener("click", () => {
+        modalBox.classList.remove("ativo");
+        const scroll = document.querySelector(".js-scroll");
+        scroll.classList.remove("off");
+    });
+};
+
 modalBiceps();
 modalTriceps();
 modalOmbro();
+modalPeito();
