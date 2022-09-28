@@ -99,6 +99,10 @@
     background: #000;
     width: 800px;
     height: 500px;
+
+        @include celular {
+            width: 330px;
+        }
     
 }
 

@@ -500,6 +500,12 @@ ul, li {
   height: 500px;
 }
 
+@media (max-width: 480px) {
+  .modal__exemplo {
+    width: 330px;
+  }
+}
+
 .treino__modal--card {
   width: 400px;
   height: 1000px;

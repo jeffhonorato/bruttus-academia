@@ -5,10 +5,10 @@ var swiper = new Swiper(".mySwiper", {
     slidesPerView: "auto",
     loop: "auto",
     coverflowEffect: {
-      rotate: 30,
+      rotate: 20,
       stretch: 0,
-      depth: 90,
-      modifier: 9,
+      depth: 100,
+      modifier: 10,
       slideShadows: true,
     },
     navigation: {
