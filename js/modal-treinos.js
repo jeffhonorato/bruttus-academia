@@ -74,7 +74,47 @@ const modalPeito = () => {
     });
 };
 
+const modalPernas = () => {
+    const btnTreino = document.querySelector(".js-btn-pernas");
+    const modalBox = document.querySelector(".js-modal-pernas");
+   
+    
+    btnTreino.addEventListener("click", () => {
+        modalBox.classList.add("ativo");
+        const scroll = document.querySelector(".js-scroll");
+        scroll.classList.add("off");
+    });
+
+    const btnFechar = document.querySelector(".js-btn-fecharPernas");
+        btnFechar.addEventListener("click", () => {
+        modalBox.classList.remove("ativo");
+        const scroll = document.querySelector(".js-scroll");
+        scroll.classList.remove("off");
+    });
+};
+
+const modalCosta = () => {
+    const btnTreino = document.querySelector(".js-btn-costa");
+    const modalBox = document.querySelector(".js-modal-costa");
+   
+    
+    btnTreino.addEventListener("click", () => {
+        modalBox.classList.add("ativo");
+        const scroll = document.querySelector(".js-scroll");
+        scroll.classList.add("off");
+    });
+
+    const btnFechar = document.querySelector(".js-btn-fecharCosta");
+        btnFechar.addEventListener("click", () => {
+        modalBox.classList.remove("ativo");
+        const scroll = document.querySelector(".js-scroll");
+        scroll.classList.remove("off");
+    });
+};
+
 modalBiceps();
 modalTriceps();
 modalOmbro();
 modalPeito();
+modalPernas();
+modalCosta();
