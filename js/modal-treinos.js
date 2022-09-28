@@ -5,15 +5,15 @@ const modalBiceps = () => {
     
     btnTreino.addEventListener("click", () => {
         modalBox.classList.add("ativo");
-        const scrollBody = document.querySelector("js-scroll");
-        scrollBody.classList.add("off");
+        const scroll= document.querySelector("js-scroll");
+        scroll.classList.add("off");
     });
 
     const btnFechar = document.querySelector(".js-btn-fechar");
         btnFechar.addEventListener("click", () => {
         modalBox.classList.remove("ativo");
-        const scrollBody = document.querySelector("js-scroll");
-        scrollBody.classList.remove("off");
+        const scroll = document.querySelector("js-scroll");
+        scroll.classList.remove("off");
     });
 };
 
