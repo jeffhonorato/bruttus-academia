@@ -480,6 +480,8 @@ ul, li {
   background-color: rgba(255, 255, 255, 0.3);
   width: 100%;
   height: 100%;
+  display: grid;
+  place-content: center;
 }
 
 .modal__exemplo {
@@ -494,12 +496,13 @@ ul, li {
   right: 0;
   bottom: 0;
   background: #000;
-  width: 500px;
+  width: 800px;
+  height: 500px;
 }
 
 .treino__modal--card {
   width: 400px;
-  height: 370px;
+  height: 1000px;
   text-align: center;
   padding: .4rem;
   background: #B81F00;
@@ -511,7 +514,7 @@ ul, li {
 }
 
 .treino__modal--gif {
-  width: 250px;
+  width: 200px;
   margin: 0 auto;
 }
 
@@ -524,3 +527,15 @@ ul, li {
 }
 
 /******* SWIPER SLIDER *******/
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}

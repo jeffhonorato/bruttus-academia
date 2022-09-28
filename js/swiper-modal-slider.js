@@ -5,17 +5,17 @@ var swiper = new Swiper(".mySwiper", {
     slidesPerView: "auto",
     loop: "auto",
     coverflowEffect: {
-      rotate: 50,
+      rotate: 30,
       stretch: 0,
-      depth: 100,
-      modifier: 1,
+      depth: 90,
+      modifier: 9,
       slideShadows: true,
     },
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
-    pagination: {
-      el: ".swiper-pagination",
-    },
+    // pagination: {
+    //   el: ".swiper-pagination",
+    // },
   });
