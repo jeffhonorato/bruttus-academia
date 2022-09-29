@@ -603,5 +603,6 @@ ul, li {
 }
 
 .nutrientes {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/nutrientes/nutrientes-background.jpg");
   height: 105vh;
 }
