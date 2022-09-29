@@ -678,3 +678,24 @@ ul, li {
 .whey .nutri__card--nome {
   font-size: 1.2rem;
 }
+
+/********* Modal *********/
+.nutri__modal--box {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 1rem;
+}
+
+.modal__proteina--titulo {
+  font-family: "Advent Pro", sans-serif;
+  margin-bottom: 2rem;
+}
+
+.modal__proteina--p {
+  font-family: "Jura", sans-serif;
+  padding: .5rem;
+}
