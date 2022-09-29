@@ -697,13 +697,32 @@ ul, li {
   justify-items: center;
 }
 
+@media (max-width: 480px) {
+  .nutri__modal--proteina {
+    grid-template-columns: 1fr;
+    justify-items: start;
+  }
+}
+
 .nutri__modal--img {
   width: 350px;
+}
+
+@media (max-width: 480px) {
+  .nutri__modal--img {
+    width: 320px;
+  }
 }
 
 .nutri__modal--info {
   width: 500px;
   margin-bottom: 3rem;
+}
+
+@media (max-width: 480px) {
+  .nutri__modal--info {
+    width: 320px;
+  }
 }
 
 .modal__proteina--titulo {
