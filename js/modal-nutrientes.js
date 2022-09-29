@@ -10,7 +10,7 @@ const proteina = () => {
         scroll.classList.add("off");
     });
     
-    const bntFecharPro = document.querySelector(".nutri__ico--fecharPro");
+    const bntFecharPro = document.querySelector(".js-fecharPro");
         bntFecharPro.addEventListener("click", () => {
             modalProteina.classList.remove("ativo");
             const menu1 = document.querySelector(".js-menu-mobile");
@@ -18,6 +18,29 @@ const proteina = () => {
             const scroll = document.querySelector(".js-scroll")
         scroll.classList.remove("off");
     });
-}
+};
+
+const carboidrato = () => {
+    const btnCarbo = document.querySelector(".js-btn-carbo");
+    const modalCarbo = document.querySelector(".js-nutri-modal-carbo");
+
+    btnCarbo.addEventListener("click", () => {
+        modalCarbo.classList.add("ativo");
+        const menu2 = document.querySelector(".js-menu-mobile");
+        menu2.classList.add("desativar");
+        const scroll = document.querySelector(".js-scroll");;
+        scroll.classList.add("off");
+    });
+
+    const bntFecharCarbo = document.querySelector(".js-fecharCarbo");
+        bntFecharCarbo.addEventListener("click", () => {
+            modalCarbo.classList.remove("ativo");
+            const menu2 = document.querySelector(".js-menu-mobile");
+            menu2.classList.remove("desativar");
+            const scroll = document.querySelector(".js-scroll");
+            scroll.classList.remove("off");
+    });
+};
 
 proteina();
+carboidrato();

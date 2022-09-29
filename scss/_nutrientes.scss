@@ -41,7 +41,7 @@
         }
 }
 
-.nutri__ico--fecharPro {
+.nutri__ico--fecharModal {
     width: 50px;
     position: absolute;
     right: 5px;
@@ -100,7 +100,7 @@
     right: 0;
     padding: 1rem;
     overflow-y: auto;
-    display: block;
+    display: none;
     animation: slidein 1s forwards;
 }
 

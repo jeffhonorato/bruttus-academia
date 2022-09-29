@@ -647,20 +647,20 @@ ul, li {
   }
 }
 
-.nutri__ico--fecharPro {
+.nutri__ico--fecharModal {
   width: 50px;
   position: absolute;
   right: 5px;
   cursor: pointer;
 }
 
-.nutri__ico--fecharPro:hover {
+.nutri__ico--fecharModal:hover {
   width: 47px;
   transition: all .5s;
 }
 
 @media (max-width: 480px) {
-  .nutri__ico--fecharPro {
+  .nutri__ico--fecharModal {
     width: 35px;
     right: 8px;
   }
@@ -708,7 +708,7 @@ ul, li {
   right: 0;
   padding: 1rem;
   overflow-y: auto;
-  display: block;
+  display: none;
   animation: slidein 1s forwards;
 }
 
