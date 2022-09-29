@@ -88,10 +88,7 @@
 .nutri__modal--proteina {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-content: center;
-    justify-content: center;
-   
-
+    justify-items: center;
 }
 
 .nutri__modal--img {
@@ -100,6 +97,7 @@
 
 .nutri__modal--info {
     width: 500px;
+    margin-bottom: 3rem;
 }
 
 .modal__proteina--titulo {
@@ -111,4 +109,9 @@
 .modal__proteina--p {
     font-family: $fonte-corpo;
     padding: .5rem;
+}
+
+.modal__pro--lista::before {
+    content: "🏋️";
+    margin-right: 4px;
 }
