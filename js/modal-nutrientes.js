@@ -5,7 +5,7 @@ btnProteina.addEventListener("click", () => {
     modalProteina.classList.add("ativo");
     const menu1 = document.querySelector(".js-menu-mobile");
     menu1.classList.add("desativar");
-    const scroll = document.querySelector(".js-scroll")
+    const scroll = document.querySelector(".js-scroll");;
     scroll.classList.add("off");
 });
 

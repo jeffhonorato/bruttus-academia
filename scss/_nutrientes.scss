@@ -51,6 +51,11 @@
             width: 47px;
             transition: all .5s;
         }
+
+        @include celular {
+            width: 35px;
+            right: 8px;
+        }
 }
 
 .nutri__card {

@@ -659,6 +659,13 @@ ul, li {
   transition: all .5s;
 }
 
+@media (max-width: 480px) {
+  .nutri__ico--fecharPro {
+    width: 35px;
+    right: 8px;
+  }
+}
+
 .nutri__card {
   background-color: #DBDB43;
   width: 140px;
