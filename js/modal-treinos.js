@@ -7,6 +7,8 @@ const modalBiceps = () => {
         modalBox.classList.add("ativo");
         const scroll= document.querySelector(".js-scroll");
         scroll.classList.add("off");
+        const menu = document.querySelector(".js-menu-mobile");
+        menu.classList.add("desativar");
     });
 
     const btnFechar = document.querySelector(".js-btn-fecharBiceps");
@@ -14,6 +16,8 @@ const modalBiceps = () => {
         modalBox.classList.remove("ativo");
         const scroll = document.querySelector(".js-scroll");
         scroll.classList.remove("off");
+        const menu = document.querySelector(".js-menu-mobile");
+        menu.classList.remove("desativar");
     });
 };
 
@@ -26,6 +30,8 @@ const modalTriceps = () => {
         modalBox.classList.add("ativo");
         const scroll= document.querySelector(".js-scroll");
         scroll.classList.add("off");
+        const menu1 = document.querySelector(".js-menu-mobile");
+        menu1.classList.add("desativar");
     });
 
     const btnFechar = document.querySelector(".js-btn-fecharTriceps");
@@ -33,6 +39,8 @@ const modalTriceps = () => {
         modalBox.classList.remove("ativo");
         const scroll = document.querySelector(".js-scroll");
         scroll.classList.remove("off");
+        const menu1 = document.querySelector(".js-menu-mobile");
+        menu1.classList.remove("desativar");
     });
 };
 
@@ -45,6 +53,8 @@ const modalOmbro = () => {
         modalBox.classList.add("ativo");
         const scroll= document.querySelector(".js-scroll");
         scroll.classList.add("off");
+        const menu3 = document.querySelector(".js-menu-mobile");
+        menu3.classList.add("desativar");
     });
 
     const btnFechar = document.querySelector(".js-btn-fecharOmbro");
@@ -52,6 +62,8 @@ const modalOmbro = () => {
         modalBox.classList.remove("ativo");
         const scroll = document.querySelector(".js-scroll");
         scroll.classList.remove("off");
+        const menu3 = document.querySelector(".js-menu-mobile");
+        menu3.classList.remove("desativar");
     });
 };
 
@@ -64,6 +76,8 @@ const modalPeito = () => {
         modalBox.classList.add("ativo");
         const scroll = document.querySelector(".js-scroll");
         scroll.classList.add("off");
+        const menu4 = document.querySelector(".js-menu-mobile");
+        menu4.classList.add("desativar");
     });
 
     const btnFechar = document.querySelector(".js-btn-fecharPeito");
@@ -71,6 +85,8 @@ const modalPeito = () => {
         modalBox.classList.remove("ativo");
         const scroll = document.querySelector(".js-scroll");
         scroll.classList.remove("off");
+        const menu4 = document.querySelector(".js-menu-mobile");
+        menu4.classList.remove("desativar");
     });
 };
 
@@ -83,6 +99,8 @@ const modalPernas = () => {
         modalBox.classList.add("ativo");
         const scroll = document.querySelector(".js-scroll");
         scroll.classList.add("off");
+        const menu5 = document.querySelector(".js-menu-mobile");
+        menu5.classList.add("desativar");
     });
 
     const btnFechar = document.querySelector(".js-btn-fecharPernas");
@@ -90,6 +108,8 @@ const modalPernas = () => {
         modalBox.classList.remove("ativo");
         const scroll = document.querySelector(".js-scroll");
         scroll.classList.remove("off");
+        const menu5 = document.querySelector(".js-menu-mobile");
+        menu5.classList.remove("desativar");
     });
 };
 
@@ -102,6 +122,8 @@ const modalCosta = () => {
         modalBox.classList.add("ativo");
         const scroll = document.querySelector(".js-scroll");
         scroll.classList.add("off");
+        const menu6 = document.querySelector(".js-menu-mobile");
+        menu6.classList.add("desativar");
     });
 
     const btnFechar = document.querySelector(".js-btn-fecharCosta");
@@ -109,6 +131,8 @@ const modalCosta = () => {
         modalBox.classList.remove("ativo");
         const scroll = document.querySelector(".js-scroll");
         scroll.classList.remove("off");
+        const menu6 = document.querySelector(".js-menu-mobile");
+        menu6.classList.remove("desativar");
     });
 };
 

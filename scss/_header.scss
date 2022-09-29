@@ -38,6 +38,10 @@
                 }
         }
 
+        .menu__mobile.desativar {
+            display: none;
+        }
+
         .nav__menu {
             display: grid;
             grid-template-columns: 1fr;

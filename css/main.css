@@ -78,6 +78,10 @@ ul, li {
   }
 }
 
+.header .menu__mobile.desativar {
+  display: none;
+}
+
 .header .nav__menu {
   display: grid;
   grid-template-columns: 1fr;
