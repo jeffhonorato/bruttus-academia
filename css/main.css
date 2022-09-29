@@ -647,16 +647,16 @@ ul, li {
   }
 }
 
-.nutri__ico--fechar {
+.nutri__ico--fecharPro {
   width: 50px;
   position: absolute;
   right: 5px;
   cursor: pointer;
 }
 
-.nutri__ico--fechar:hover {
+.nutri__ico--fecharPro:hover {
   width: 47px;
-  transition: all .5ss;
+  transition: all .5s;
 }
 
 .nutri__card {
@@ -701,6 +701,12 @@ ul, li {
   right: 0;
   padding: 1rem;
   overflow-y: auto;
+  display: none;
+  animation: slidein 1s forwards;
+}
+
+.nutri__modal--box.ativo {
+  display: block;
 }
 
 .nutri__modal--proteina {
@@ -751,4 +757,15 @@ ul, li {
 .modal__pro--lista::before {
   content: "🏋️";
   margin-right: 4px;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
