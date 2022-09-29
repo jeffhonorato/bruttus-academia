@@ -688,13 +688,14 @@ ul, li {
   bottom: 0;
   right: 0;
   padding: 1rem;
+  overflow-y: auto;
 }
 
 .nutri__modal--proteina {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  justify-content: center;
 }
 
 .nutri__modal--img {
