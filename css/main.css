@@ -647,6 +647,18 @@ ul, li {
   }
 }
 
+.nutri__ico--fechar {
+  width: 50px;
+  position: absolute;
+  right: 5px;
+  cursor: pointer;
+}
+
+.nutri__ico--fechar:hover {
+  width: 47px;
+  transition: all .5ss;
+}
+
 .nutri__card {
   background-color: #DBDB43;
   width: 140px;

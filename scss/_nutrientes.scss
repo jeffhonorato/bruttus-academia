@@ -41,6 +41,18 @@
         }
 }
 
+.nutri__ico--fechar {
+    width: 50px;
+    position: absolute;
+    right: 5px;
+    cursor: pointer;
+
+        &:hover {
+            width: 47px;
+            transition: all .5ss;
+        }
+}
+
 .nutri__card {
     background-color: $cor-corpo;
     width: 140px;
