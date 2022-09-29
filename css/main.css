@@ -604,6 +604,10 @@ ul, li {
 
 .nutrientes {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/nutrientes/nutrientes-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   height: 105vh;
 }
 
@@ -618,6 +622,47 @@ ul, li {
 
 @media (max-width: 480px) {
   .nutri__titulo {
-    font-size: 1.4rem;
+    font-size: 2rem;
   }
+}
+
+.nutri__cards--box {
+  display: grid;
+  grid-template-columns: 140px 140px 140px 140px;
+  justify-content: center;
+  justify-items: center;
+  gap: 1rem;
+}
+
+@media (max-width: 480px) {
+  .nutri__cards--box {
+    grid-template-columns: 140px 140px;
+    gap: .4rem;
+  }
+}
+
+.nutri__card {
+  background-color: #DBDB43;
+  width: 140px;
+  border-radius: 20%;
+  padding: .3rem;
+}
+
+.nutri__card:hover {
+  background-color: #fff;
+  transition: all .5s;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .nutri__card {
+    width: 120px;
+  }
+}
+
+.nutri__card--nome {
+  text-align: center;
+  margin-top: 1rem;
+  font-family: "Advent Pro", sans-serif;
+  font-size: 1.5rem;
 }

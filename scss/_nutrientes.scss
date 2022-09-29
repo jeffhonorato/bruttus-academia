@@ -4,6 +4,10 @@
         rgba(0,0,0,0.6)),
     
     url("../img/nutrientes/nutrientes-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     height: 105vh;
 }
 
@@ -16,6 +20,46 @@
     color: $cor-corpo;
 
         @include celular {
-            font-size: 1.4rem;
+            font-size: 2rem;
         }
 }
+
+.nutri__cards--box {
+    display: grid;
+    grid-template-columns: 140px 140px 140px 140px;
+    justify-content: center;
+    justify-items: center;
+    gap: 1rem;
+
+        @include celular {
+            grid-template-columns: 140px 140px;
+            gap: .4rem;   
+        }
+}
+
+.nutri__card {
+    background-color: $cor-corpo;
+    width: 140px;
+    border-radius: 20%;
+    padding: .3rem;
+
+        &:hover {
+            background-color: #fff;
+            transition: all .5s;
+            cursor: pointer;
+        }
+
+        @include celular {
+            width: 120px;
+        }
+}
+
+.nutri__card--nome {
+    text-align: center;
+    margin-top: 1rem;
+    font-family: $fonte-titulo;
+    font-size: 1.5rem;
+
+
+}
+
