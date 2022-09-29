@@ -6,3 +6,16 @@
     url("../img/nutrientes/nutrientes-background.jpg");
     height: 105vh;
 }
+
+.nutri__titulo {
+    font-size: 2.9rem;
+    font-family: $fonte-menu;
+    text-align: center;
+    padding: 2rem 0;
+    margin-bottom: 4rem;
+    color: $cor-corpo;
+
+        @include celular {
+            font-size: 1.4rem;
+        }
+}

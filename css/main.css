@@ -606,3 +606,18 @@ ul, li {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/nutrientes/nutrientes-background.jpg");
   height: 105vh;
 }
+
+.nutri__titulo {
+  font-size: 2.9rem;
+  font-family: "Viga", sans-serif;
+  text-align: center;
+  padding: 2rem 0;
+  margin-bottom: 4rem;
+  color: #DBDB43;
+}
+
+@media (max-width: 480px) {
+  .nutri__titulo {
+    font-size: 1.4rem;
+  }
+}
