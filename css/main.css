@@ -611,6 +611,12 @@ ul, li {
   height: 105vh;
 }
 
+@media (max-width: 480px) {
+  .nutrientes {
+    height: 130vh;
+  }
+}
+
 .nutri__titulo {
   font-size: 2.9rem;
   font-family: "Viga", sans-serif;
@@ -667,4 +673,8 @@ ul, li {
   margin-top: 1rem;
   font-family: "Advent Pro", sans-serif;
   font-size: 1.5rem;
+}
+
+.whey .nutri__card--nome {
+  font-size: 1.2rem;
 }

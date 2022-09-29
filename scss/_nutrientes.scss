@@ -9,6 +9,10 @@
     background-size: cover;
     background-attachment: fixed;
     height: 105vh;
+
+        @include celular {
+            height: 130vh;;
+        }
 }
 
 .nutri__titulo {
@@ -63,5 +67,9 @@
     font-size: 1.5rem;
 
 
+}
+
+.whey .nutri__card--nome {
+    font-size: 1.2rem;
 }
 
