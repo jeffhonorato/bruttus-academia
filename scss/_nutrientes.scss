@@ -124,6 +124,7 @@
 
         @include celular {
             width: 320px;
+            margin-bottom: 2rem;
         }
 }
 
@@ -162,4 +163,16 @@
       margin-left: 0%;
       width: 100%;
     }
-  }
+}
+
+.modal__proteina--lista {
+    max-width: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0rem .5rem;
+
+        @include celular {
+            max-width: 320px;
+        }
+
+}

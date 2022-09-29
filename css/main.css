@@ -736,6 +736,7 @@ ul, li {
 @media (max-width: 480px) {
   .nutri__modal--img {
     width: 320px;
+    margin-bottom: 2rem;
   }
 }
 
@@ -774,5 +775,18 @@ ul, li {
   to {
     margin-left: 0%;
     width: 100%;
+  }
+}
+
+.modal__proteina--lista {
+  max-width: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0rem .5rem;
+}
+
+@media (max-width: 480px) {
+  .modal__proteina--lista {
+    max-width: 320px;
   }
 }
