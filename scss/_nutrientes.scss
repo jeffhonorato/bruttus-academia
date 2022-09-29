@@ -84,9 +84,25 @@
     padding: 1rem;
 }
 
+.nutri__modal--proteina {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nutri__modal--img {
+    width: 340px;
+}
+
+.nutri__modal--info {
+    width: 500px;
+}
+
 .modal__proteina--titulo {
     font-family: $fonte-titulo;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
 }
 
 .modal__proteina--p {
