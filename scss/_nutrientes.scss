@@ -42,11 +42,13 @@
     width: 140px;
     border-radius: 20%;
     padding: .3rem;
+    box-shadow: 1px 1px 10px #fff;
 
         &:hover {
             background-color: #fff;
             transition: all .5s;
             cursor: pointer;
+            box-shadow: 1px 1px 10px $cor-titulo;
         }
 
         @include celular {

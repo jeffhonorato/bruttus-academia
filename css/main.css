@@ -646,12 +646,14 @@ ul, li {
   width: 140px;
   border-radius: 20%;
   padding: .3rem;
+  box-shadow: 1px 1px 10px #fff;
 }
 
 .nutri__card:hover {
   background-color: #fff;
   transition: all .5s;
   cursor: pointer;
+  box-shadow: 1px 1px 10px #B81F00;
 }
 
 @media (max-width: 480px) {
