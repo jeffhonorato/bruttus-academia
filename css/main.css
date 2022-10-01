@@ -684,7 +684,7 @@ ul, li {
 /* line 136, ../../../Documents/GitHub/bruttus-academia/scss/_nutrientes.scss */
 .nutri__modal--info {
   width: 500px;
-  margin-bottom: 3rem; }
+  margin: 3rem 0rem; }
   @media (max-width: 480px) {
     /* line 136, ../../../Documents/GitHub/bruttus-academia/scss/_nutrientes.scss */
     .nutri__modal--info {
