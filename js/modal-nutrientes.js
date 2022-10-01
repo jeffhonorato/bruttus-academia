@@ -42,5 +42,29 @@ const carboidrato = () => {
     });
 };
 
+const gordura = () => {
+    const btnGordura = document.querySelector(".js-btn-gordura");
+    const modalGordura = document.querySelector(".js-nutri-modal-gordura");
+
+        btnGordura.addEventListener("click", () => {
+            modalGordura.classList.add("ativo");
+            const menu3 = document.querySelector(".js-menu-mobile");
+            menu3.classList.add("desativar");
+            const scroll = document.querySelector(".js-scroll");;
+            scroll.classList.add("off");
+        });
+
+        const btnFecharGordura = document.querySelector(".js-fecharGordura");
+            btnFecharGordura.addEventListener("click", () => {
+                modalGordura.classList.remove("ativo");
+                const menu3 = document.querySelector(".js-menu-mobile");
+                menu3.classList.remove("desativar");
+                const scroll = document.querySelector(".js-scroll");
+                scroll.classList.remove("off");
+            });
+      
+};
+
 proteina();
 carboidrato();
+gordura();
