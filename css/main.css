@@ -661,44 +661,43 @@ ul, li {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
-  align-items: center;
-  background-color: coral; }
+  align-items: center; }
   @media (max-width: 480px) {
     /* line 111, ../../../Documents/GitHub/bruttus-academia/scss/_nutrientes.scss */
     .nutri__modal--bloco {
       grid-template-columns: 1fr;
       justify-items: start; } }
 
-/* line 124, ../../../Documents/GitHub/bruttus-academia/scss/_nutrientes.scss */
+/* line 123, ../../../Documents/GitHub/bruttus-academia/scss/_nutrientes.scss */
 .nutri__modal--img {
   width: 350px; }
   @media (max-width: 480px) {
-    /* line 124, ../../../Documents/GitHub/bruttus-academia/scss/_nutrientes.scss */
+    /* line 123, ../../../Documents/GitHub/bruttus-academia/scss/_nutrientes.scss */
     .nutri__modal--img {
       width: 320px;
       margin-bottom: 2rem; } }
 
-/* line 133, ../../../Documents/GitHub/bruttus-academia/scss/_nutrientes.scss */
+/* line 132, ../../../Documents/GitHub/bruttus-academia/scss/_nutrientes.scss */
 .nutri__modal--info {
   width: 500px;
   margin-bottom: 3rem; }
   @media (max-width: 480px) {
-    /* line 133, ../../../Documents/GitHub/bruttus-academia/scss/_nutrientes.scss */
+    /* line 132, ../../../Documents/GitHub/bruttus-academia/scss/_nutrientes.scss */
     .nutri__modal--info {
       width: 320px; } }
 
-/* line 142, ../../../Documents/GitHub/bruttus-academia/scss/_nutrientes.scss */
+/* line 141, ../../../Documents/GitHub/bruttus-academia/scss/_nutrientes.scss */
 .modal__proteina--titulo {
   font-family: "Advent Pro", sans-serif;
   margin-bottom: 1rem;
   text-align: center; }
 
-/* line 148, ../../../Documents/GitHub/bruttus-academia/scss/_nutrientes.scss */
+/* line 147, ../../../Documents/GitHub/bruttus-academia/scss/_nutrientes.scss */
 .modal__proteina--p {
   font-family: "Jura", sans-serif;
   padding: .5rem; }
 
-/* line 153, ../../../Documents/GitHub/bruttus-academia/scss/_nutrientes.scss */
+/* line 152, ../../../Documents/GitHub/bruttus-academia/scss/_nutrientes.scss */
 .modal__pro--lista::before {
   content: "🏋️";
   margin-right: 4px; }
@@ -711,14 +710,14 @@ ul, li {
     margin-left: 0%;
     width: 100%; } }
 
-/* line 170, ../../../Documents/GitHub/bruttus-academia/scss/_nutrientes.scss */
+/* line 169, ../../../Documents/GitHub/bruttus-academia/scss/_nutrientes.scss */
 .modal__proteina--lista {
   max-width: 400px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 0rem .5rem; }
   @media (max-width: 480px) {
-    /* line 170, ../../../Documents/GitHub/bruttus-academia/scss/_nutrientes.scss */
+    /* line 169, ../../../Documents/GitHub/bruttus-academia/scss/_nutrientes.scss */
     .modal__proteina--lista {
       max-width: 320px; } }
 

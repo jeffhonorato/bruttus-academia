@@ -113,7 +113,6 @@
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
-    background-color: coral;
 
         @include celular {
             grid-template-columns: 1fr;
