@@ -65,6 +65,30 @@ const gordura = () => {
       
 };
 
+const suplemento = () => {
+    const btnSuplemento = document.querySelector(".js-btn-suplemento");
+    const modalSuplemento = document.querySelector(".js-nutri-modal-suplemento");
+
+        btnSuplemento.addEventListener("click", () => {
+            modalSuplemento.classList.add("ativo");
+            const menu4 = document.querySelector(".js-menu-mobile");
+            menu4.classList.add("desativar");
+            const scroll = document.querySelector(".js-scroll");;
+            scroll.classList.add("off");
+        });
+
+        const btnFecharSuplemento = document.querySelector(".js-fecharSuplemento");
+            btnFecharSuplemento.addEventListener("click", () => {
+                modalSuplemento.classList.remove("ativo");
+                const menu4 = document.querySelector(".js-menu-mobile");
+                menu4.classList.remove("desativar");
+                const scroll = document.querySelector(".js-scroll");
+                scroll.classList.remove("off");
+            });
+      
+};
+
 proteina();
 carboidrato();
 gordura();
+suplemento();
