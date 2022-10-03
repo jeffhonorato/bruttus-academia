@@ -1,7 +1,7 @@
 const proteina = () => {
     const btnProteina = document.querySelector(".js-btn-proteina");
     const modalProteina = document.querySelector(".js-nutri-modal-proteina");
-    
+   
     btnProteina.addEventListener("click", () => {
         modalProteina.classList.add("ativo");
         const menu1 = document.querySelector(".js-menu-mobile");
@@ -16,7 +16,14 @@ const proteina = () => {
             const menu1 = document.querySelector(".js-menu-mobile");
             menu1.classList.remove("desativar");
             const scroll = document.querySelector(".js-scroll")
-        scroll.classList.remove("off");
+            scroll.classList.remove("off");
+    });  
+    
+    window.addEventListener("keydown", (e) => {
+        const key = e.code === "Escape";
+        if(key === true) {
+            modalProteina.classList.remove("ativo");
+        }
     });
 };
 
@@ -87,6 +94,8 @@ const suplemento = () => {
             });
       
 };
+
+
 
 proteina();
 carboidrato();
