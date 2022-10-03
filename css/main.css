@@ -858,7 +858,7 @@ ul, li {
 .suple__card--juros {
   font-family: "Jura", sans-serif;
   font-size: .8rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.4rem;
 }
 
 .suple__card--link {
@@ -868,6 +868,14 @@ ul, li {
   font-size: 1rem;
   color: #fff;
   font-family: "Viga", sans-serif;
+  border: 1px solid #fff;
+}
+
+.suple__card--link:hover {
+  background-color: #DBDB43;
+  transition: all .5s;
+  color: #000;
+  border: 1px solid #000;
 }
 
 /* SWIPER SLIDER */

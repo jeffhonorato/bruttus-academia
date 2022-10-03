@@ -68,7 +68,7 @@
 .suple__card--juros {
     font-family: $fonte-corpo;
     font-size: .8rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.4rem;
 }
 
 .suple__card--link {
@@ -78,6 +78,14 @@
     font-size: 1rem;
     color: #fff;
     font-family: $fonte-menu;
+    border: 1px solid #fff;
+
+        &:hover {
+            background-color: $cor-corpo;
+            transition: all .5s;
+            color: #000;
+            border: 1px solid #000;
+        }
 }
 
 
