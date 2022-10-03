@@ -23,6 +23,8 @@ const proteina = () => {
         const key = e.code === "Escape";
         if(key === true) {
             modalProteina.classList.remove("ativo");
+            const scroll = document.querySelector(".js-scroll");
+            scroll.classList.remove("off");
         }
     });
 };
@@ -47,6 +49,15 @@ const carboidrato = () => {
             const scroll = document.querySelector(".js-scroll");
             scroll.classList.remove("off");
     });
+
+    window.addEventListener("keydown", (e) => {
+        const key = e.code === "Escape";
+        if(key === true) {
+            modalCarbo.classList.remove("ativo");
+            const scroll = document.querySelector(".js-scroll");
+            scroll.classList.remove("off");
+        }
+    });
 };
 
 const gordura = () => {
@@ -68,6 +79,15 @@ const gordura = () => {
                 menu3.classList.remove("desativar");
                 const scroll = document.querySelector(".js-scroll");
                 scroll.classList.remove("off");
+            });
+
+            window.addEventListener("keydown", (e) => {
+                const key = e.code === "Escape";
+                if(key === true) {
+                    modalGordura.classList.remove("ativo");
+                    const scroll = document.querySelector(".js-scroll");
+                    scroll.classList.remove("off");
+                }
             });
       
 };
@@ -91,6 +111,15 @@ const suplemento = () => {
                 menu4.classList.remove("desativar");
                 const scroll = document.querySelector(".js-scroll");
                 scroll.classList.remove("off");
+            });
+
+            window.addEventListener("keydown", (e) => {
+                const key = e.code === "Escape";
+                if(key === true) {
+                    modalSuplemento.classList.remove("ativo");
+                    const scroll = document.querySelector(".js-scroll");
+                    scroll.classList.remove("off");
+                }
             });
       
 };
