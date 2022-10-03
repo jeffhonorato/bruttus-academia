@@ -8,8 +8,16 @@
     height: 100vh;
 }
 
+.suple__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
 .suple__card--img {
     width: 300px;
+    margin: 0 auto;
 }
 
 
@@ -32,7 +40,7 @@
     background-position: center;
     background-size: cover;
     width: 380px;
-    height: 380px;
+    height: 400px;
   }
 
 //   .swiper-slide img {
