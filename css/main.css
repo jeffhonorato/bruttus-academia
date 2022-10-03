@@ -804,6 +804,12 @@ ul, li {
   background-size: cover;
 }
 
+@media (max-width: 480px) {
+  .suplemento {
+    height: 150vh;
+  }
+}
+
 .suple__titulo {
   font-family: "Viga", sans-serif;
   text-align: center;
@@ -812,10 +818,21 @@ ul, li {
   color: #DBDB43;
 }
 
+@media (max-width: 480px) {
+  .suple__titulo {
+    font-size: 1.8rem;
+  }
+}
+
 .suple__box {
   display: grid;
   place-content: center;
   height: 100vh;
+}
+
+.suple__cards {
+  display: grid;
+  justify-content: center;
 }
 
 .suple__card {
@@ -824,11 +841,18 @@ ul, li {
   justify-content: center;
   text-align: center;
   padding: 1rem .5rem;
+  width: 360px;
   background: rgba(255, 255, 255, 0.55);
   box-shadow: 0px 0px 10px #DBDB43;
   backdrop-filter: blur(0px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+@media (max-width: 480px) {
+  .suple__card {
+    width: 320px;
+  }
 }
 
 .suple__card--img {
