@@ -1,5 +1,9 @@
 .suplemento {
-    height: 110vh;
+    height: 140vh;
+    background-image: url("../img/suplementos/background-supplementos2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .suple__titulo {
@@ -7,6 +11,7 @@
     text-align: center;
     padding: 3rem 0;
     font-size: 2.5rem;
+    color: #fff;
 }
 
 .suple__box {
@@ -20,15 +25,50 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    padding: 1rem .5rem;
+    border-radius: 8%;
+    background-color: #fff;
+    
 }
 
 .suple__card--img {
-    width: 300px;
+    width: 260px;
     margin: 0 auto;
 }
 
 .suple__card--titulo {
     font-family: $fonte-titulo;
+    margin-bottom: .8rem;
+
+}
+
+.suple__card--info {
+    background-color: cadetblue;
+    margin-bottom: .8rem;
+}
+
+.suple__card--p {
+    font-family: $fonte-corpo;
+}
+
+.suple__card--valor {
+    font-family: $fonte-titulo;
+    font-size: 2rem;
+}
+
+.suple__card--juros {
+    font-family: $fonte-corpo;
+    font-size: .8rem;
+    margin-bottom: 1rem;
+}
+
+.suple__card--link {
+    background-color: $cor-titulo;
+    padding: .5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #fff;
+    font-family: $fonte-menu;
 }
 
 
@@ -51,7 +91,7 @@
     background-position: center;
     background-size: cover;
     width: 380px;
-    height: 400px;
+    height: 470px;
   }
 
 //   .swiper-slide img {
