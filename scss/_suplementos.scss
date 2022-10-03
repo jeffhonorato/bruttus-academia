@@ -65,6 +65,7 @@
 .suple__card--titulo {
     font-family: $fonte-titulo;
     margin-bottom: .8rem;
+    font-size: 1.8rem;
 
 }
 
@@ -102,6 +103,10 @@
             color: #000;
             border: 1px solid #000;
         }
+}
+
+.link-barra {
+    margin-bottom: 1.4rem;
 }
 
 

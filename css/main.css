@@ -863,6 +863,7 @@ ul, li {
 .suple__card--titulo {
   font-family: "Advent Pro", sans-serif;
   margin-bottom: .8rem;
+  font-size: 1.8rem;
 }
 
 .suple__card--info {
@@ -899,6 +900,10 @@ ul, li {
   transition: all .5s;
   color: #000;
   border: 1px solid #000;
+}
+
+.link-barra {
+  margin-bottom: 1.4rem;
 }
 
 /* SWIPER SLIDER */
