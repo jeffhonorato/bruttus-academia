@@ -827,7 +827,6 @@ ul, li {
   background: rgba(255, 255, 255, 0.55);
   box-shadow: 0px 0px 10px #DBDB43;
   backdrop-filter: blur(0px);
-  -webkit-backdrop-filter: blur(0px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
