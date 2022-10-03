@@ -806,6 +806,10 @@ ul, li {
   height: 100vh;
 }
 
+.suple__card--img {
+  width: 300px;
+}
+
 /* SWIPER SLIDER */
 .swiper {
   width: 100%;
@@ -816,11 +820,6 @@ ul, li {
 .swiper-slide {
   background-position: center;
   background-size: cover;
-  width: 350px;
-  height: 350px;
-}
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
+  width: 380px;
+  height: 380px;
 }

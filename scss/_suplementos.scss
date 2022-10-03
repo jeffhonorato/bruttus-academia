@@ -8,6 +8,10 @@
     height: 100vh;
 }
 
+.suple__card--img {
+    width: 300px;
+}
+
 
 
 
@@ -27,11 +31,11 @@
   .swiper-slide {
     background-position: center;
     background-size: cover;
-    width: 350px;
-    height: 350px;
+    width: 380px;
+    height: 380px;
   }
 
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-  }
+//   .swiper-slide img {
+//     display: block;
+//     width: 100%;
+//   }
