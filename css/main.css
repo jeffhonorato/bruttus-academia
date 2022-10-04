@@ -925,3 +925,14 @@ ul, li {
   width: 380px;
   height: 470px;
 }
+
+.estrutura {
+  height: 110vh;
+}
+
+.estrutura__titulo {
+  font-family: "Advent Pro", sans-serif;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #B81F00;
+}
