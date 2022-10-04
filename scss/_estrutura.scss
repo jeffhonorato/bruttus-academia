@@ -8,6 +8,7 @@
     font-size: 2.5rem;
     color: $cor-titulo;
     margin-bottom: 3rem;
+    padding: 2rem 0;
 
         @include celular {
             margin-bottom: 0rem;
