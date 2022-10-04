@@ -8,7 +8,7 @@ var swiper = new Swiper(".estrutura-box", {
       rotate: 10,
       stretch: 0,
       depth: 100,
-      modifier: 1,
+      modifier: 9,
       slideShadows: true,
     },
     navigation: {
