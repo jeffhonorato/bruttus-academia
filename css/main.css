@@ -1064,3 +1064,7 @@ ul, li {
   font-family: "Jura", sans-serif;
   font-weight: bold;
 }
+
+.footer {
+  height: 100vh;
+}
