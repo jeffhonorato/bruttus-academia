@@ -932,7 +932,7 @@ ul, li {
 
 .estrutura {
   height: 110vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/estrutura/background-estrutura.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../img/estrutura/background-estrutura.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
