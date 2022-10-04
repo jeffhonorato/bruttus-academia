@@ -8,6 +8,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+        @include celular {
+            height: 90vh;
+        }
 }
 
 .estrutura__titulo {
@@ -20,6 +24,7 @@
 
         @include celular {
             margin-bottom: 0rem;
+            font-size: 2rem;
         }
 }
 

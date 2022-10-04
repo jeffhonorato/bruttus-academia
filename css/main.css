@@ -938,6 +938,12 @@ ul, li {
   background-size: cover;
 }
 
+@media (max-width: 480px) {
+  .estrutura {
+    height: 90vh;
+  }
+}
+
 .estrutura__titulo {
   font-family: "Advent Pro", sans-serif;
   text-align: center;
@@ -950,6 +956,7 @@ ul, li {
 @media (max-width: 480px) {
   .estrutura__titulo {
     margin-bottom: 0rem;
+    font-size: 2rem;
   }
 }
 
