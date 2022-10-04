@@ -931,7 +931,11 @@ ul, li {
 }
 
 .estrutura {
-  height: 90vh;
+  height: 110vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/estrutura/background-estrutura.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .estrutura__titulo {
@@ -950,7 +954,7 @@ ul, li {
 }
 
 .estrutura-box {
-  height: 90vh;
+  height: 100vh;
 }
 
 @media (max-width: 480px) {
@@ -986,5 +990,13 @@ ul, li {
 
 .swiper-slide {
   background-position: center;
+  background-size: cover;
+}
+
+.sobre {
+  height: 120vh;
+  background-image: url("../img/sobre/background-sobre.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
