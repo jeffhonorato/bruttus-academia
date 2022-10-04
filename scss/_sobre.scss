@@ -6,3 +6,42 @@
     background-size: cover;
     // background-attachment: fixed;
 }
+
+.sobre__box {
+    height: 100%;
+    width: 500px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.sobre__img {
+    width: 180px;
+    margin-bottom: 1rem;
+}
+
+.sobre__info {
+    text-align: center;
+    background: rgba( 255, 255, 255, 0.55);
+    box-shadow: 0px 0px 10px $cor-corpo;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+    padding: .6rem;
+
+}
+
+.sobre__info--titulo {
+    font-family: $fonte-titulo;
+    padding: .5rem 0rem;
+    font-size: 2rem;
+}
+
+.sobre__info--p {
+    padding: .5rem;
+    text-align: start;
+    font-family: $fonte-corpo;
+}
