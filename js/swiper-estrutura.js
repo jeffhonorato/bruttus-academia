@@ -3,6 +3,7 @@ var swiper = new Swiper(".estrutura", {
     grabCursor: true,
     centeredSlides: true,
     slidesPerView: "auto",
+    loop: "true",
     coverflowEffect: {
       rotate: 50,
       stretch: 0,
@@ -10,7 +11,8 @@ var swiper = new Swiper(".estrutura", {
       modifier: 1,
       slideShadows: true,
     },
-    pagination: {
-      el: ".swiper-pagination",
-    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
   });
