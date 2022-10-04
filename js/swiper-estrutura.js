@@ -7,8 +7,8 @@ var swiper = new Swiper(".estrutura-box", {
     coverflowEffect: {
       rotate: 10,
       stretch: 0,
-      depth: 100,
-      modifier: 9,
+      depth: 150,
+      modifier: 8,
       slideShadows: true,
     },
     navigation: {
