@@ -129,12 +129,13 @@
         }
 }
 
-.treino__modal--card {
+#treino__modal--card {
     width: 400px;
-    height: 1000px;
+    height: 320px;
     text-align: center;
     padding: .4rem;
     background: $cor-titulo;
+    border-radius: 6%;
     
 }
 
