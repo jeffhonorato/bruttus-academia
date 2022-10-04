@@ -837,6 +837,7 @@ ul, li {
 }
 
 .suple__card {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -892,10 +893,13 @@ ul, li {
 }
 
 .suple__card--link {
+  position: absolute;
+  bottom: -20px;
+  left: calc(50% - 65px);
   background-color: #B81F00;
   padding: .5rem;
   border-radius: 4px;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #fff;
   font-family: "Viga", sans-serif;
   border: 1px solid #fff;
