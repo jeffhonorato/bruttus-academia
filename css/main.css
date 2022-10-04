@@ -1076,6 +1076,12 @@ ul, li {
   place-content: center;
 }
 
+@media (max-width: 480px) {
+  .footer {
+    height: 125vh;
+  }
+}
+
 .contato__box {
   display: flex;
   flex-wrap: wrap;
@@ -1106,6 +1112,16 @@ ul, li {
   padding: 1.5rem;
 }
 
+.contato__endereco:hover {
+  background: #fff;
+}
+
+.contato__endereco:hover .contato__end,
+.contato__endereco .contato__num,
+.contato__endereco .contato__cidade {
+  color: #000;
+}
+
 .contato__end,
 .contato__num,
 .contato__cidade {
@@ -1115,6 +1131,9 @@ ul, li {
 .contato__midia--titulo {
   font-family: "Advent Pro", sans-serif;
   text-align: center;
+  color: #DBDB43;
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 .contato__midia--sociais {

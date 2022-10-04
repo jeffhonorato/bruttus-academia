@@ -8,6 +8,10 @@
 
     display: grid;
     place-content:  center;
+
+        @include celular {
+            height: 125vh;
+        }
 }
 
 .contato__box {
@@ -37,6 +41,17 @@
     border: 1px solid rgba( 255, 255, 255, 0.18);
     font-family: $fonte-corpo;
     padding: 1.5rem;
+
+        &:hover {
+            background: #fff;
+        }
+
+        &:hover 
+        .contato__end, 
+        .contato__num,
+        .contato__cidade {
+            color: #000;
+        }
 }
 
 .contato__end,
@@ -48,6 +63,9 @@
 .contato__midia--titulo {
     font-family: $fonte-titulo;
     text-align: center;
+    color: $cor-corpo;
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 .contato__midia--sociais {
