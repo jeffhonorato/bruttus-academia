@@ -1159,6 +1159,7 @@ ul, li {
   justify-content: center;
   align-items: center;
   gap: .5rem;
+  background-color: #323232;
 }
 
 .desenvolvedor__logo {
