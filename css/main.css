@@ -937,9 +937,15 @@ ul, li {
   color: #B81F00;
 }
 
+.estrutura__boxImg {
+  background-color: darkkhaki;
+}
+
 #estrutura__picture {
   width: 400px;
   height: 400px;
+  margin: 0 auto;
+  background-color: darkblue;
 }
 
 .swiper {
@@ -951,9 +957,4 @@ ul, li {
 .swiper-slide {
   background-position: center;
   background-size: cover;
-}
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
 }

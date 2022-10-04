@@ -9,10 +9,20 @@
     color: $cor-titulo;
 }
 
+.estrutura__boxImg {
+    background-color: darkkhaki;
+}
+
 #estrutura__picture {
     width: 400px;
     height: 400px;
+    margin: 0 auto;
+    background-color: darkblue;
 }
+
+// .estrutura__img {
+//     width: 500px;
+// }
 
 
 
@@ -30,7 +40,7 @@
     // height: 300px;
   }
 
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-  }
+//   .swiper-slide img {
+//     display: block;
+//     width: 100%;
+//   }
