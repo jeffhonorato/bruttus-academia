@@ -942,16 +942,26 @@ ul, li {
   margin-bottom: 3rem;
 }
 
+@media (max-width: 480px) {
+  .estrutura__titulo {
+    margin-bottom: 0rem;
+  }
+}
+
 .estrutura-box {
   height: 90vh;
-  background-color: darkcyan;
+}
+
+@media (max-width: 480px) {
+  .estrutura-box {
+    height: 60vh;
+  }
 }
 
 #estrutura__picture {
   width: 600px;
   height: 400px;
   margin: 0 auto;
-  background-color: darkblue;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -960,7 +970,10 @@ ul, li {
 @media (max-width: 480px) {
   #estrutura__picture {
     width: 320px;
-    height: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
 
