@@ -1067,4 +1067,68 @@ ul, li {
 
 .footer {
   height: 100vh;
+  background-image: url("../img/contato/background-contato.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: grid;
+  place-content: center;
+}
+
+.contato__box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.contato__img--logo {
+  width: 200px;
+}
+
+.contato__dados--titulo {
+  font-family: "Advent Pro", sans-serif;
+  color: #DBDB43;
+  text-align: center;
+  margin-bottom: .7rem;
+  font-size: 2rem;
+}
+
+.contato__endereco {
+  background: rgba(255, 255, 255, 0.55);
+  box-shadow: 0px 0px 10px #DBDB43;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  font-family: "Jura", sans-serif;
+  padding: 1.5rem;
+}
+
+.contato__end,
+.contato__num,
+.contato__cidade {
+  font-size: 1.6rem;
+}
+
+.contato__midia--titulo {
+  font-family: "Advent Pro", sans-serif;
+  text-align: center;
+}
+
+.contato__midia--sociais {
+  display: flex;
+  gap: .5rem;
+  justify-content: center;
+}
+
+.contato__midia--ico {
+  width: 50px;
+  cursor: pointer;
+  border-bottom: none 1px solid #fff;
+}
+
+.contato__midia--ico:hover {
+  border-bottom: 1px solid #fff;
 }
