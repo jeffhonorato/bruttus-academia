@@ -7,14 +7,13 @@
     text-align: center;
     font-size: 2.5rem;
     color: $cor-titulo;
+    margin-bottom: 3rem;
 }
 
 .estrutura-box {
-    height: 80vh;
+    height: 90vh;
     background-color: darkcyan;
    
-    
-
 }
 
 #estrutura__picture {
@@ -22,6 +21,14 @@
     height: 400px;
     margin: 0 auto;
     background-color: darkblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+        @include celular {
+            width: 320px;
+            height: 400px;
+        }
 }
 
 // .estrutura__img {
