@@ -937,12 +937,16 @@ ul, li {
   color: #B81F00;
 }
 
-.estrutura__boxImg {
-  background-color: darkkhaki;
+.estrutura-box {
+  height: 100vh;
+  background-color: darkcyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #estrutura__picture {
-  width: 400px;
+  width: 600px;
   height: 400px;
   margin: 0 auto;
   background-color: darkblue;
