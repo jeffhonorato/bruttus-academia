@@ -5,6 +5,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     // background-attachment: fixed;
+
+        @include celular {
+            height: 150vh;
+        }
 }
 
 .sobre__box {
@@ -15,12 +19,21 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+        @include celular {
+            width: 300px;
+            margin-left: 10px;
+        }
     
 }
 
 .sobre__img {
     width: 180px;
     margin-bottom: 1rem;
+
+        @include celular {
+            width: 140px;
+        }
 }
 
 .sobre__info {
