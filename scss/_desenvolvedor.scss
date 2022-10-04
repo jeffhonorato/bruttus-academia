@@ -1,0 +1,32 @@
+.desenvolvedor__rodape {
+    background-color: #fff;
+    padding: .4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    
+}
+
+.desenvolvedor__logo {
+    width: 40px;
+}
+
+.desenvolvedor__nome {
+    font-family: $fonte-menu;
+    text-align: center;
+    background-color: $cor-titulo;
+    width: 150px;
+    padding: .3rem;
+    border-radius: 6%;
+    font-size: 1rem;
+    color: #fff;
+
+        &:hover {
+            background-color: $cor-corpo;
+            color: #000;
+            transition: all .5s;
+        }
+
+      
+}

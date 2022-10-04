@@ -1151,3 +1151,33 @@ ul, li {
 .contato__midia--ico:hover {
   border-bottom: 1px solid #fff;
 }
+
+.desenvolvedor__rodape {
+  background-color: #fff;
+  padding: .4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+}
+
+.desenvolvedor__logo {
+  width: 40px;
+}
+
+.desenvolvedor__nome {
+  font-family: "Viga", sans-serif;
+  text-align: center;
+  background-color: #B81F00;
+  width: 150px;
+  padding: .3rem;
+  border-radius: 6%;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.desenvolvedor__nome:hover {
+  background-color: #DBDB43;
+  color: #000;
+  transition: all .5s;
+}
