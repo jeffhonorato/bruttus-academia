@@ -1,4 +1,4 @@
-var swiper = new Swiper(".suplementos", {
+var swiper = new Swiper(".suplementos-box", {
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: true,

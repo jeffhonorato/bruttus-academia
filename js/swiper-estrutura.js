@@ -1,4 +1,4 @@
-var swiper = new Swiper(".estrutura", {
+var swiper = new Swiper(".estrutura-box", {
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: true,
