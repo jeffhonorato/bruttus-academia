@@ -6,6 +6,10 @@
     background-repeat: no-repeat;
     background-size: cover;
 
+        @include celular {
+            height: 100vh;
+        }
+
         .header__container {
             display: flex;
             justify-content: space-between;
@@ -14,12 +18,26 @@
 
         }
 
+        .logo {
+            @include celular {
+                width: 100%;
+                background-color: aqua;
+                display: flex;
+                justify-content: center;
+            }
+        }
+
         .img__logo {
             width: 430px; /* 150px */
             margin: 0 auto;
+            position: absolute;
+            top: 150px;
 
                 @include celular {
                     width: 300px;
+                    position: absolute;
+                    top: 300px;
+                    
                 }
                 
         }

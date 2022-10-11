@@ -42,6 +42,12 @@ ul, li {
   background-size: cover;
 }
 
+@media (max-width: 480px) {
+  .header {
+    height: 100vh;
+  }
+}
+
 .header .header__container {
   display: flex;
   justify-content: space-between;
@@ -49,15 +55,28 @@ ul, li {
   position: relative;
 }
 
+@media (max-width: 480px) {
+  .header .logo {
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+  }
+}
+
 .header .img__logo {
   width: 430px;
   /* 150px */
   margin: 0 auto;
+  position: absolute;
+  top: 150px;
 }
 
 @media (max-width: 480px) {
   .header .img__logo {
     width: 300px;
+    position: absolute;
+    top: 300px;
   }
 }
 
@@ -1032,7 +1051,7 @@ ul, li {
 }
 
 .sobre__img {
-  width: 180px;
+  width: 340px;
   margin-bottom: 1rem;
 }
 
@@ -1097,7 +1116,7 @@ ul, li {
 }
 
 .contato__img--logo {
-  width: 200px;
+  width: 300px;
 }
 
 .contato__dados--titulo {
