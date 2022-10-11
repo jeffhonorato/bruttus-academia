@@ -15,12 +15,13 @@
         }
 
         .img__logo {
-            width: 9rem; /* 150px */
+            width: 430px; /* 150px */
             margin: 0 auto;
 
                 @include celular {
-                    width: 6rem;
+                    width: 300px;
                 }
+                
         }
 
         .menu__mobile {

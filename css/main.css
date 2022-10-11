@@ -50,14 +50,14 @@ ul, li {
 }
 
 .header .img__logo {
-  width: 9rem;
+  width: 430px;
   /* 150px */
   margin: 0 auto;
 }
 
 @media (max-width: 480px) {
   .header .img__logo {
-    width: 6rem;
+    width: 300px;
   }
 }
 
