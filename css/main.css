@@ -1101,6 +1101,7 @@ ul, li {
 .sobre__info:hover {
   box-shadow: 2px 2px 20px #DBDB43;
   transition: all .4s;
+  background-color: #fff;
 }
 
 .sobre__info--titulo {
