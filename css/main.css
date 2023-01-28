@@ -879,6 +879,12 @@ ul, li {
   }
 }
 
+.suple__card:hover {
+  background: #fff;
+  transition: all .5s;
+  box-shadow: 0px 0px 20px #DBDB43;
+}
+
 .suple__card--img {
   width: 260px;
   margin: 0 auto;
@@ -1054,7 +1060,6 @@ ul, li {
 
 .sobre__img {
   width: 340px;
-  margin-bottom: 1rem;
 }
 
 @media (max-width: 480px) {
@@ -1066,11 +1071,16 @@ ul, li {
 .sobre__info {
   text-align: center;
   background: rgba(255, 255, 255, 0.55);
-  box-shadow: 0px 0px 10px #DBDB43;
+  box-shadow: 4px 0px 10px #DBDB43;
   backdrop-filter: blur(10px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   padding: .6rem;
+}
+
+.sobre__info:hover {
+  box-shadow: 2px 2px 20px #DBDB43;
+  transition: all .4s;
 }
 
 .sobre__info--titulo {
