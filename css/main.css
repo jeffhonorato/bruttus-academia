@@ -82,6 +82,15 @@ ul, li {
   }
 }
 
+@media (min-width: 480px) and (max-width: 800px) {
+  .header .img__logo {
+    width: 200px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+}
+
 .header .menu__mobile {
   width: 70px;
   position: fixed;
@@ -99,6 +108,14 @@ ul, li {
   }
 }
 
+@media (min-width: 480px) and (max-width: 800px) {
+  .header .menu__mobile {
+    width: 60px;
+    right: 10px;
+    top: 40px;
+  }
+}
+
 .header .menu__mobile.desativar {
   display: none;
 }
@@ -107,19 +124,22 @@ ul, li {
   display: grid;
   grid-template-columns: 1fr;
   gap: .8rem;
-  justify-items: center;
+  justify-items: end;
   position: fixed;
-  top: 100px;
+  top: 105px;
   right: 0px;
   display: none;
   animation: show 1s forwards;
   padding: 1rem;
   z-index: 2;
+  background: rgba(255, 255, 255, 0.2);
+  margin-right: 1rem;
+  border-radius: 20%;
 }
 
 @media (max-width: 480px) {
   .header .nav__menu {
-    top: 90px;
+    top: 100px;
     right: -10px;
   }
 }
