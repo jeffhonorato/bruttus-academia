@@ -28,15 +28,17 @@
         }
 
         .img__logo {
-            width: 430px; /* 150px */
+            width: 300px; /* 150px */
             margin: 0 auto;
             position: absolute;
-            top: 120px;
+            top: 20px;
+            left: 240px;
 
                 @include celular {
-                    width: 300px;
+                    width: 170px;
                     position: absolute;
-                    top: 300px;
+                    top: 0px;
+                    left: -6px;
                     
                 }
                 
