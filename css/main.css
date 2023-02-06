@@ -914,6 +914,7 @@ ul, li {
 .suple__box {
   display: grid;
   place-content: center;
+  background-color: darksalmon;
 }
 
 .suple__cards {
