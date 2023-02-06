@@ -38,7 +38,7 @@
 }
 
 .contato__endereco {
-    background: rgba( 255, 255, 255, 0.55);
+    background: linear-gradient(40deg, #DBDB43, #fff);
     box-shadow: 0px 0px 10px $cor-corpo;
     backdrop-filter: blur(10px);
     border-radius: 10px;
@@ -96,7 +96,7 @@
 }
 
 .contato__horario--info {
-    background: rgba( 255, 255, 255, 0.55);
+    background: linear-gradient(40deg, #DBDB43, #fff);
     box-shadow: 0px 0px 10px $cor-corpo;
     backdrop-filter: blur(10px);
     border-radius: 10px;

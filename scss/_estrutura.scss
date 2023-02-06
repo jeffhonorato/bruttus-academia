@@ -1,5 +1,5 @@
 .estrutura {
-    height: 110vh;
+    height: 120vh;
     background: linear-gradient(
         rgba(0,0,0, 0.1),
         rgba(0,0,0, 0.1)),
@@ -10,7 +10,7 @@
     background-size: cover;
 
         @include celular {
-            height: 90vh;
+            height: 70vh;
         }
 }
 
@@ -24,7 +24,7 @@
 
         @include celular {
             margin-bottom: 0rem;
-            font-size: 2rem;
+            font-size: 2.5rem;
         }
 }
 

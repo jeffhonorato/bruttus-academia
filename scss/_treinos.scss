@@ -5,6 +5,11 @@
     background-size: cover;
     background-attachment: fixed;
     height: 115vh;
+
+    @include celular {
+        height: 85vh;
+    }
+    
 }
 
 .treinos__box--titulo {
