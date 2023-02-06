@@ -230,14 +230,14 @@ ul, li {
 .planos__card--titulo {
   font-family: "Jura", sans-serif;
   color: #DBDB43;
-  font-size: 2.5rem;
+  font-size: 2.7rem;
   text-align: center;
   margin-bottom: 2rem;
 }
 
 @media (max-width: 480px) {
   .planos__card--titulo {
-    font-size: 2rem;
+    font-size: 2.4rem;
   }
 }
 
@@ -259,8 +259,47 @@ ul, li {
 }
 
 .card:hover {
-  box-shadow: 2px 2px 20px #DBDB43;
-  transition: all .4s;
+  box-shadow: 2px 2px 20px #B81F00;
+  transition: all .5s;
+  background: linear-gradient(40deg, #DBDB43, #fff);
+}
+
+.card:hover .card__mensal {
+  color: #B81F00;
+  font-weight: bold;
+}
+
+.card:hover .card__acesso {
+  color: #000;
+  font-weight: bold;
+}
+
+.card:hover .card__instrutor {
+  color: #000;
+  font-weight: bold;
+}
+
+.card:hover .card__ficha {
+  color: #000;
+  font-weight: bold;
+}
+
+.card:hover .card__esteira {
+  color: #000;
+  font-weight: bold;
+}
+
+.card:hover .card__btn--box {
+  background: #B81F00;
+}
+
+.card:hover .card__mensal--promo {
+  color: #000;
+  font-weight: bold;
+}
+
+.card:hover .card__mensal--semestre {
+  color: #B81F00;
 }
 
 .card__selo {
