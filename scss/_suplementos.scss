@@ -9,7 +9,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
 
         @include celular {
             height: 100vh;
@@ -31,7 +30,7 @@
 .suple__box {
     display: grid;
     place-content: center;
-    height: 100vh;
+    // height: 100vh;
 }
 
 .suple__cards {
@@ -121,9 +120,9 @@
         }
 }
 
-// .link-barra {
-//     margin-bottom: 1.4rem;
-// }
+.link-barra {
+    margin-bottom: 1.4rem;
+}
 
 
 /* SWIPER SLIDER */
@@ -139,8 +138,3 @@
     width: 380px;
     height: 470px;
   }
-
-//   .swiper-slide img {
-//     display: block;
-//     width: 100%;
-//   }

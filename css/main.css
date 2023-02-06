@@ -889,7 +889,6 @@ ul, li {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
 }
 
 @media (max-width: 480px) {
@@ -915,7 +914,6 @@ ul, li {
 .suple__box {
   display: grid;
   place-content: center;
-  height: 100vh;
 }
 
 .suple__cards {
@@ -1003,6 +1001,10 @@ ul, li {
   transition: all .5s;
   color: #000;
   border: 1px solid #000;
+}
+
+.link-barra {
+  margin-bottom: 1.4rem;
 }
 
 /* SWIPER SLIDER */
