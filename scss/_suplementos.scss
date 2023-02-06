@@ -9,6 +9,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 
         @include celular {
             height: 100vh;
@@ -120,17 +121,9 @@
         }
 }
 
-.link-barra {
-    margin-bottom: 1.4rem;
-}
-
-
-
-
-
-
-
-
+// .link-barra {
+//     margin-bottom: 1.4rem;
+// }
 
 
 /* SWIPER SLIDER */
